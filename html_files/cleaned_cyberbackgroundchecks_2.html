@@ -1,0 +1,2457 @@
+<html lang="en">
+<body>
+<div class="loader loader-default" data-text="Searching billions of records...">
+</div>
+<div class="container">
+<div class="row mt-2">
+<div class="col-md-8">
+<a class="navbar-brand" href="/">
+<img src="/images/logo/cbc-color-svg.svg" alt="Cyberbackgroundchecks.com" >
+</a>
+</div>
+<div  class="col-md-4 mt-3 collapse show">
+<div class="input-group" >
+<div class="input-group-prepend">
+<span class="input-group-text bg-warning">
+<i class="far fa-search text-white">
+</i>
+</span>
+</div>
+<input type="text" class="form-control" placeholder="Bill Gates in Seattle, WA" >
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div  class="row collapse ">
+<div class="col-md-12">
+<div class="card mt-3">
+<div class="card-header pl-2 pr-2 pt-2 pb-0 bg-dark">
+<ul class="nav nav-pills mb-2"  role="tablist">
+<li class="nav-item pill-search-nav">
+<a href="/name" class="nav-link show active"  role="tab" aria-controls="pills-search-by-name" aria-selected="true">
+<h2>
+<i class="fas fa-user mr-1">
+</i>
+Name</h2>
+</a>
+</li>
+<li class="nav-item pill-search-nav">
+<a href="/address" class="nav-link "  role="tab" aria-controls="pills-search-by-address" aria-selected="false">
+<h2>
+<i class="fad fa-home mr-1">
+</i>
+Address</h2>
+</a>
+</li>
+<li class="nav-item pill-search-nav">
+<a href="/phone" class="nav-link "  role="tab" aria-controls="pills-search-by-phone" aria-selected="false">
+<h2>
+<i class="fad fa-mobile-alt mr-2">
+</i>
+Phone</h2>
+</a>
+</li>
+<li class="nav-item pill-search-nav">
+<a href="/email" class="nav-link "  role="tab" aria-controls="pills-search-by-email" aria-selected="false">
+<h2>
+<i class="fad fa-at mr-1">
+</i>
+Email</h2>
+</a>
+</li>
+</ul>
+</div>
+<div class="card-body pl-4 pr-4 pt-3 pb-0">
+<div class="tab-content" >
+<div class="tab-pane fade show active"  role="tabpanel" aria-labelledby="pills-search-by-name-tab">
+<div class="row">
+<div class="col-lg-3 px-1">
+<div class="form-group">
+<input  class="form-control"  name="SearchCriteriaViewModel.FirstName" placeholder="First Name" type="text" value="Bill">
+</div>
+</div>
+<div class="col-lg-1 px-1">
+<div class="form-group">
+<input  class="form-control"  name="SearchCriteriaViewModel.MiddleName" placeholder="MI" type="text" value="">
+</div>
+</div>
+<div class="col-lg-3 px-1">
+<div class="form-group">
+<input  class="form-control"  name="SearchCriteriaViewModel.LastName" placeholder="Last Name" type="text" value="Gates">
+</div>
+</div>
+<div class="col-lg-3 px-1">
+<div class="form-group">
+<input type="text"  class="form-control address-input" placeholder="City &amp; State" autocomplete="off"  value="Seattle, WA">
+</div>
+</div>
+<div class="col-lg-1 px-1">
+<div class="form-group">
+<button type="submit" class="btn btn-warning text-white btn-block"  >
+<strong>
+<i class="far fa-search">
+</i>
+</strong>
+</button>
+</div>
+</div>
+<div class="col-lg-1 px-1">
+<div class="form-group">
+<button type="button" class="btn btn-outline-secondary btn-block"  >
+Clear</button>
+</div>
+</div>
+</div>
+</div>
+<div class="tab-pane fade "  role="tabpanel" aria-labelledby="pills-search-by-address-tab">
+<div class="row">
+<div class="col-lg-6 px-1">
+<div class="form-group">
+ <input class="form-control"  name="SearchCriteriaViewModel.AddressLine1" placeholder="Street Address, Apt/Unit" type="text" value="">
+</div>
+</div>
+<div class="col-lg-4 px-1">
+<div class="form-group">
+<input type="text"  class="form-control address-input" placeholder="City &amp; State" autocomplete="off" value="">
+</div>
+</div>
+<div class="col-lg-1 px-1">
+<div class="form-group">
+<button type="submit" class="btn btn-warning text-white btn-block"  >
+<strong>
+<i class="far fa-search">
+</i>
+</strong>
+</button>
+</div>
+</div>
+<div class="col-lg-1 px-1">
+<div class="form-group">
+<button type="button" class="btn btn-outline-secondary btn-block" >
+Clear</button>
+</div>
+</div>
+</div>
+</div>
+<div class="tab-pane fade "  role="tabpanel" aria-labelledby="pills-search-by-phone-tab">
+<div class="row">
+<div class="col-lg-10 px-1">
+<div class="form-group">
+<input class="form-control phone"  name="SearchCriteriaViewModel.Phone" placeholder="(999) 999-9999" type="tel" value="" im-insert="true">
+</div>
+</div>
+<div class="col-lg-1 px-1">
+<div class="form-group">
+<button type="submit" class="btn btn-warning text-white btn-block"  >
+<strong>
+<i class="far fa-search">
+</i>
+</strong>
+</button>
+</div>
+</div>
+<div class="col-lg-1 px-1">
+<div class="form-group">
+<button type="button" class="btn btn-outline-secondary btn-block" >
+Clear</button>
+</div>
+</div>
+</div>
+</div>
+<div class="tab-pane fade "  role="tabpanel" aria-labelledby="pills-search-by-email-tab">
+<div class="row">
+<div class="col-lg-10 px-1">
+<div class="form-group">
+<input  name="Email" type="text" class="form-control" placeholder="john@gmail.com" value="">
+</div>
+</div>
+<div class="col-lg-1 px-1">
+<div class="form-group">
+<button type="submit" class="btn btn-warning text-white btn-block"  >
+<strong>
+<i class="far fa-search">
+</i>
+</strong>
+</button>
+</div>
+</div>
+<div class="col-lg-1 px-1">
+<div class="form-group">
+<button type="button" class="btn btn-outline-secondary btn-block" >
+Clear</button>
+</div>
+ </div>
+</div>
+</div>
+</div>
+<div class="row" >
+<div class="col-md-12">
+<div class="alert alert-warning"  role="alert">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row justify-content-center pt-3">
+<h1 class="total-records-label">
+<strong>
+25</strong>
+ results for <strong>
+Bill Gates</strong>
+ in <strong>
+Seattle, WA</strong>
+</h1>
+</div>
+<div class="row">
+<div class="col-md-12 pt-2 pb-3">
+<span>
+<a href="/names">
+People Directory</a>
+ &gt;
+<a href="/names/g">
+Last Name (G)</a>
+ &gt;
+<a href="/people/gates">
+ Gates</a>
+ &gt;
+<a href="/people/bill-gates">
+ Bill Gates</a>
+ &gt;
+<a href="/people/bill-gates/wa">
+ WA</a>
+ &gt;
+<strong>
+Seattle</strong>
+</span>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12 pt-2 pb-0">
+<ul class="pagination justify-content-center">
+<li class="page-item disabled">
+<a class="page-link text-warning" href="#" data-toggle="tooltip" data-placement="bottom" title=""  data-original-title="First page">
+<i class="fas fa-angle-double-left text-warning">
+</i>
+</a>
+</li>
+<li class="page-item disabled">
+<a class="page-link text-warning" href="#" data-toggle="tooltip" data-placement="bottom" title=""  data-original-title="Previous page">
+<i class="fas fa-chevron-left text-warning">
+</i>
+</a>
+</li>
+<li class="page-item">
+<a class="page-link text-warning" data-toggle="tooltip" data-placement="bottom" title=""  href="/people/bill-gates/wa/seattle/2" data-original-title="Next page">
+<i class="fas fa-chevron-right text-warning">
+</i>
+</a>
+</li>
+<li class="page-item">
+<a class="page-link text-warning" data-toggle="tooltip" data-placement="bottom" title=""  href="/people/bill-gates/wa/seattle/3" data-original-title="Last page">
+<i class="fas fa-angle-double-right text-warning">
+</i>
+</a>
+</li>
+<li class="page-item disabled">
+<a class="page-link text-warning" href="#">
+<small>
+Displaying page <strong>
+1</strong>
+ of <strong>
+3</strong>
+</small>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="row">
+<div class="row search-results__container">
+<div class="search-results__ad search-results__ad--left text-right">
+<div data-aaad="true" data-aa-adunit="/22815767462/CBC_Name_Left" class="sticky"  data-status="rendered"  data-aa-device="[&quot;desktop&quot;,&quot;tinyDesktop&quot;,&quot;tablet&quot;]" data-aa-sizes="[[160,600],[120,600],[120,240]]" data-aa-lazy-loaded="false" data-aa-refresh-viewable="30" data-google-query->
+<div  >
+</div>
+</div>
+</div>
+<div class="search-results__content">
+<div class="card card-hover" >
+<div class="card-header bg-white">
+<div class="row">
+<div class="col-md-12 my-auto">
+<h2 class="mb-0">
+<i class="fad fa-user-circle text-warning mr-1">
+</i>
+<span class="name-given">
+Bill Gates
+ </span>
+<span class="age-label text-secondary">
+Age: </span>
+<span class="age">
+70</span>
+</h2>
+</div>
+</div>
+</div>
+<div class="card-body pt-3 pb-0">
+<div class="row">
+<div class="col-md-12">
+<div class="row">
+<div class="col-md-12 text-secondary">
+<h3 class="mb-0 section-label d-inline mr-1">
+<i class="fad fa-home text-warning mr-1">
+</i>
+<span class="address-current-label">
+Lives at
+</span>
+</h3>
+<p class="address-current max-lines-1 d-inline">
+<a class="address" title="Find other people associated with 1913 Dudley St, Philadelphia, PA 19145 2814" href="/address/1913-dudley-st/philadelphia/pa">
+1913 Dudley St, Philadelphia, PA 19145 2814</a>
+<small class="text-muted county">
+[Philadelphia County]</small>
+</p>
+</div>
+<div class="col-md-12 mb-2 text-secondary">
+<h3 class="mb-0 section-label mt-3">
+<i class="fad fa-history text-warning mr-1 mb-1">
+</i>
+<span class="address-previous-label">
+Used to live</span>
+</h3>
+<p class="mb-0 address-previous max-lines-1">
+<a class="address" title="Find other people associated with 10230 NE Points Dr STE 200, Kirkland, WA 98033 7897" href="/address/10230-ne-points-dr-ste-200/kirkland/wa">
+10230 NE Points Dr STE 200, Kirkland, WA 98033 7897</a>
+<small class="text-muted county">
+[King County]</small>
+</p>
+<p class="mb-0 address-previous max-lines-1">
+<a class="address" title="Find other people associated with 5501 Lakeview Dr, Kirkland, WA 98033 7314" href="/address/5501-lakeview-dr/kirkland/wa">
+5501 Lakeview Dr, Kirkland, WA 98033 7314</a>
+<small class="text-muted county">
+[King County]</small>
+</p>
+<p class="mb-0 address-previous max-lines-1">
+<a class="address" title="Find other people associated with 279 Sycamore Rd, Glenville, WV 26351 1085" href="/address/279-sycamore-rd/glenville/wv">
+279 Sycamore Rd, Glenville, WV 26351 1085</a>
+<small class="text-muted county">
+[Gilmer County]</small>
+</p>
+<p class="more-addresses mb-0">
+[16] more...
+</p>
+</div>
+<div class="col-md-12 mb-2 mt-1 text-secondary">
+<h3 class="mb-0 section-label d-inline">
+<i class="fad fa-id-card text-warning mr-1 mb-1">
+</i>
+<span class="akas-label">
+Other observed names</span>
+</h3>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<span class="aka">
+William H Gates</span>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<span class="aka">
+William Gates</span>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<span class="aka">
+William H Yates</span>
+<span class="more-addresses mb-0">
+ <span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+[8] more...
+</span>
+</div>
+<div class="col-md-12 mb-2 mt-1 text-secondary">
+<h3 class="mb-0 section-label d-inline">
+<i class="fad fa-mobile-alt text-warning mr-1 mb-1">
+</i>
+<span class="phones-label">
+Phones</span>
+</h3>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="Find other people associated with (425) 728-0578 (Wireless - Bandwidth.com CLEC LLC - WA)" class="phone" href="/phone/425-728-0578">
+(425) 728-0578</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="Find other people associated with (425) 882-8080 (LandLine/Services - Ziply Fiber Northwest LLC dba Ziply Fiber)" class="phone" href="/phone/425-882-8080">
+(425) 882-8080</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="Find other people associated with (206) 703-2641 (LandLine/Services - Onvoy LLC - WA)" class="phone" href="/phone/206-703-2641">
+(206) 703-2641</a>
+<span class="more-phones mb-0">
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+[19] more...
+</span>
+</div>
+<div class="col-md-12 mb-2 mt-1 text-secondary">
+<h3 class="mb-0 section-label d-inline">
+<i class="fad fa-sitemap text-warning mr-1 mb-1">
+</i>
+<span class="relatives-label">
+Related to</span>
+</h3>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View relative details for Bill Gates" class="relative" href="/detail/bill-gates/pidnxbzamaagbbqgxzyxbza">
+Bill Gates</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View relative details for Bill Gates" class="relative" href="/detail/bill-gates/pidgqbzpmaaxbypxmlgxgg">
+Bill Gates</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View relative details for Jennifer K Gates" class="relative" href="/detail/jennifer-k-gates/pidmxpxxmmbxzzpyypmaxg">
+Jennifer K Gates</a>
+<span class="more-relatives mb-0">
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+[8] more...
+</span>
+</div>
+<div class="col-md-12 mb-2 mt-1 text-secondary">
+<h3 class="mb-0 section-label d-inline">
+<i class="fad fa-users text-warning mr-1 mb-1">
+</i>
+<span class="associates-label">
+Associated with</span>
+</h3>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View associate details for Christine L Turner" class="associate" href="/detail/christine-l-turner/pidmalxyaxqpblblamllqq">
+Christine L Turner</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View associate details for Alene R Zamzow" class="associate" href="/detail/alene-r-zamzow/pidnpyllzmxgzlgqzggxlbl">
+Alene R Zamzow</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View associate details for Janet L Bonner" class="associate" href="/detail/janet-l-bonner/pidnqgbbylaayzlqqzzmpml">
+Janet L Bonner</a>
+<span class="more-associates mb-0">
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+[8] more...
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6 mt-1 mb-3">
+</div>
+</div>
+<div class="row">
+<div   class="col-md-6 mt-1 mb-3">
+<a title="View full address history, phone history, emails, relatives, associates, businesses and more for Bill Gates in Philadelphia, PA 19145 2814" class="btn btn-primary btn-block" href="/detail/bill-gates/pidpgqbbbgqlbmaxpmzpgy">
+<i class="fas fa-eye mr-1 mb-1">
+</i>
+VIEW DETAILS
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="card card-hover" >
+<div class="card-header bg-white">
+<div class="row">
+<div class="col-md-12 my-auto">
+<h2 class="mb-0">
+<i class="fad fa-user-circle text-warning mr-1">
+</i>
+<span class="name-given">
+Bill Gates
+</span>
+<span class="age-label text-secondary">
+Age: </span>
+<span class="age">
+67</span>
+</h2>
+</div>
+</div>
+</div>
+ 
+<div class="card-body pt-3 pb-0">
+<div class="row">
+<div class="col-md-12">
+<div class="row">
+<div class="col-md-12 text-secondary">
+<h3 class="mb-0 section-label d-inline mr-1">
+<i class="fad fa-home text-warning mr-1">
+</i>
+<span class="address-current-label">
+Lives at
+</span>
+</h3>
+<p class="address-current max-lines-1 d-inline">
+<a class="address" title="Find other people associated with 1835 73rd Ave NE, Medina, WA 98039 2328" href="/address/1835-73rd-ave-ne/medina/wa">
+1835 73rd Ave NE, Medina, WA 98039 2328</a>
+<small class="text-muted county">
+[King County]</small>
+</p>
+</div>
+<div class="col-md-12 mb-2 text-secondary">
+<h3 class="mb-0 section-label mt-3">
+<i class="fad fa-history text-warning mr-1 mb-1">
+</i>
+<span class="address-previous-label">
+Used to live</span>
+</h3>
+<p class="mb-0 address-previous max-lines-1">
+<a class="address" title="Find other people associated with 500 5th Ave N, Seattle, WA 98109 4636" href="/address/500-5th-ave-n/seattle/wa">
+500 5th Ave N, Seattle, WA 98109 4636</a>
+<small class="text-muted county">
+[King County]</small>
+</p>
+<p class="mb-0 address-previous max-lines-1">
+<a class="address" title="Find other people associated with 999 3rd Ave STE 3500, Seattle, WA 98104 4046" href="/address/999-3rd-ave-ste-3500/seattle/wa">
+999 3rd Ave STE 3500, Seattle, WA 98104 4046</a>
+<small class="text-muted county">
+[King County]</small>
+</p>
+</div>
+<div class="col-md-12 mb-2 mt-1 text-secondary">
+<h3 class="mb-0 section-label d-inline">
+<i class="fad fa-id-card text-warning mr-1 mb-1">
+</i>
+<span class="akas-label">
+Other observed names</span>
+</h3>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<span class="aka">
+William Gates</span>
+</div>
+<div class="col-md-12 mb-2 mt-1 text-secondary">
+<h3 class="mb-0 section-label d-inline">
+<i class="fad fa-mobile-alt text-warning mr-1 mb-1">
+</i>
+<span class="phones-label">
+Phones</span>
+</h3>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="Find other people associated with (206) 709-3100 (LandLine/Services - Qwest Corporation)" class="phone" href="/phone/206-709-3100">
+(206) 709-3100</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="Find other people associated with (425) 787-7141 (LandLine/Services - Ziply Fiber Northwest LLC dba Ziply Fiber)" class="phone" href="/phone/425-787-7141">
+(425) 787-7141</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="Find other people associated with (360) 705-1234 (LandLine/Services - Qwest Corporation)" class="phone" href="/phone/360-705-1234">
+(360) 705-1234</a>
+ </div>
+<div class="col-md-12 mb-2 mt-1 text-secondary">
+<h3 class="mb-0 section-label d-inline">
+<i class="fad fa-sitemap text-warning mr-1 mb-1">
+</i>
+<span class="relatives-label">
+Related to</span>
+</h3>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View relative details for Bill Gates" class="relative" href="/detail/bill-gates/pidpgqbbbgqlbmaxpmzpgy">
+Bill Gates</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View relative details for Bill Gates" class="relative" href="/detail/bill-gates/pidnxbzamaagbbqgxzyxbza">
+Bill Gates</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View relative details for Ryan Gates" class="relative" href="/detail/ryan-gates/pidpxxyaxqbxbqapqxxxa">
+Ryan Gates</a>
+<span class="more-relatives mb-0">
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+[8] more...
+</span>
+</div>
+<div class="col-md-12 mb-2 mt-1 text-secondary">
+<h3 class="mb-0 section-label d-inline">
+<i class="fad fa-users text-warning mr-1 mb-1">
+</i>
+<span class="associates-label">
+Associated with</span>
+</h3>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View associate details for Odaka D Mukanga" class="associate" href="/detail/odaka-d-mukanga/pidnblxgxlggxbazpqzzba">
+Odaka D Mukanga</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View associate details for Shannon K Raybold" class="associate" href="/detail/shannon-k-raybold/pidnyaggppxmzbaplxqqglq">
+Shannon K Raybold</a>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6 mt-1 mb-3">
+</div>
+</div>
+<div class="row">
+<div   class="col-md-6 mt-1 mb-3">
+<a title="View full address history, phone history, emails, relatives, associates, businesses and more for Bill Gates in Medina, WA 98039 2328" class="btn btn-primary btn-block" href="/detail/bill-gates/pidgqbzpmaaxbypxmlgxgg">
+<i class="fas fa-eye mr-1 mb-1">
+</i>
+VIEW DETAILS
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="card card-hover" >
+<div class="card-header bg-white">
+<div class="row">
+<div class="col-md-12 my-auto">
+<h2 class="mb-0">
+<i class="fad fa-user-circle text-warning mr-1">
+</i>
+<span class="name-given">
+Bill Gates
+</span>
+<span class="age-label text-secondary">
+Age: </span>
+<span class="badge badge-danger age">
+Deceased</span>
+</h2>
+</div>
+</div>
+</div>
+<div class="card-body pt-3 pb-0">
+<div class="row">
+<div class="col-md-12">
+<div class="row">
+<div class="col-md-12 text-secondary">
+<h3 class="mb-0 section-label d-inline mr-1">
+<i class="fad fa-home text-warning mr-1">
+</i>
+<span class="address-current-label">
+Lives at
+</span>
+</h3>
+<p class="address-current max-lines-1 d-inline">
+<a class="address" title="Find other people associated with 123 S Main St, Seattle, WA 98104 2515" href="/address/123-s-main-st/seattle/wa">
+123 S Main St, Seattle, WA 98104 2515</a>
+<small class="text-muted county">
+[King County]</small>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6 mt-1 mb-3">
+</div>
+</div>
+<div class="row">
+<div   class="col-md-6 mt-1 mb-3">
+<a title="View full address history, phone history, emails, relatives, associates, businesses and more for Bill Gates in Seattle, WA 98104 2515" class="btn btn-primary btn-block" href="/detail/bill-gates/pidnglygqybxglyypgggamy">
+<i class="fas fa-eye mr-1 mb-1">
+</i>
+VIEW DETAILS
+</a>
+</div>
+</div>
+</div>
+</div>
+<div data-aaad="true" data-aa-adunit="/22815767462/CBC_Name_mid1" class="d-none d-sm-block"  data-status="rendered"  data-aa-device="[&quot;desktop&quot;,&quot;tinyDesktop&quot;,&quot;tablet&quot;]" data-aa-sizes="[[728,90],[300,250]]" data-aa-lazy-loaded="false" data-aa-refresh-viewable="30" data-google-query->
+<div  >
+</div>
+</div>
+<div class="row">
+<div class="col text-center">
+<div data-aaad="true" data-aa-adunit="/22815767462/CBC_Name_Mob_mid1" class="mx-auto d-sm-none"  data-status="skipped"  data-aa-device="[&quot;mobile&quot;]" data-aa-sizes="[[300,250],[320,50],[320,100],[300,50],[300,100]]" data-aa-lazy-loaded="false" data-aa-refresh-viewable="30">
+</div>
+</div>
+</div>
+<div class="card card-hover" >
+<div class="card-header bg-white">
+<div class="row">
+<div class="col-md-12 my-auto">
+<h2 class="mb-0">
+<i class="fad fa-user-circle text-warning mr-1">
+</i>
+<span class="name-given">
+Bill W Gates
+</span>
+<span class="age-label text-secondary">
+Age: </span>
+<span class="age">
+54</span>
+</h2>
+</div>
+</div>
+</div>
+<div class="card-body pt-3 pb-0">
+<div class="row">
+<div class="col-md-12">
+<div class="row">
+<div class="col-md-12 text-secondary">
+<h3 class="mb-0 section-label d-inline mr-1">
+<i class="fad fa-home text-warning mr-1">
+</i>
+<span class="address-current-label">
+Lives at
+</span>
+</h3>
+<p class="address-current max-lines-1 d-inline">
+<a class="address" title="Find other people associated with 833 NW 58th St, Seattle, WA 98107 2833" href="/address/833-nw-58th-st/seattle/wa">
+833 NW 58th St, Seattle, WA 98107 2833</a>
+<small class="text-muted county">
+[King County]</small>
+</p>
+</div>
+<div class="col-md-12 mb-2 text-secondary">
+<h3 class="mb-0 section-label mt-3">
+<i class="fad fa-history text-warning mr-1 mb-1">
+</i>
+<span class="address-previous-label">
+Used to live</span>
+</h3>
+<p class="mb-0 address-previous max-lines-1">
+<a class="address" title="Find other people associated with 2720 Hoyt Ave APT 525, Everett, WA 98201 3886" href="/address/2720-hoyt-ave-apt-525/everett/wa">
+2720 Hoyt Ave APT 525, Everett, WA 98201 3886</a>
+<small class="text-muted county">
+[Snohomish County]</small>
+</p>
+<p class="mb-0 address-previous max-lines-1">
+<a class="address" title="Find other people associated with 9612 24th Pl NE, Lake Stevens, WA 98258 4263" href="/address/9612-24th-pl-ne/lake-stevens/wa">
+9612 24th Pl NE, Lake Stevens, WA 98258 4263</a>
+<small class="text-muted county">
+[Snohomish County]</small>
+</p>
+<p class="mb-0 address-previous max-lines-1">
+<a class="address" title="Find other people associated with 9049 Fremont Ave N, Seattle, WA 98103 3824" href="/address/9049-fremont-ave-n/seattle/wa">
+9049 Fremont Ave N, Seattle, WA 98103 3824</a>
+<small class="text-muted county">
+[King County]</small>
+</p>
+<p class="more-addresses mb-0">
+[31] more...
+</p>
+</div>
+<div class="col-md-12 mb-2 mt-1 text-secondary">
+<h3 class="mb-0 section-label d-inline">
+<i class="fad fa-id-card text-warning mr-1 mb-1">
+</i>
+<span class="akas-label">
+Other observed names</span>
+</h3>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<span class="aka">
+William Gates</span>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<span class="aka">
+William W Gates</span>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<span class="aka">
+Williamw Gates</span>
+<span class="more-addresses mb-0">
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+[4] more...
+</span>
+</div>
+<div class="col-md-12 mb-2 mt-1 text-secondary">
+<h3 class="mb-0 section-label d-inline">
+<i class="fad fa-mobile-alt text-warning mr-1 mb-1">
+</i>
+<span class="phones-label">
+Phones</span>
+</h3>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="Find other people associated with (425) 374-8889 (VOIP - Comcast IP Phone LLC)" class="phone" href="/phone/425-374-8889">
+(425) 374-8889</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="Find other people associated with (206) 361-4754 (LandLine/Services - Qwest Corporation)" class="phone" href="/phone/206-361-4754">
+(206) 361-4754</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="Find other people associated with (425) 258-8184 (LandLine/Services - Ziply Fiber Northwest LLC dba Ziply Fiber)" class="phone" href="/phone/425-258-8184">
+(425) 258-8184</a>
+<span class="more-phones mb-0">
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+[2] more...
+</span>
+</div>
+<div class="col-md-12 mb-2 mt-1 text-secondary">
+<h3 class="mb-0 section-label d-inline">
+<i class="fad fa-sitemap text-warning mr-1 mb-1">
+</i>
+<span class="relatives-label">
+Related to</span>
+</h3>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View relative details for John Pennington Pruett" class="relative" href="/detail/john-pennington-pruett/pidnqylblyplpxmzlxyxpal">
+John Pennington Pruett</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View relative details for Angela N Holloway" class="relative" href="/detail/angela-n-holloway/pidzpypllpllxblmylbbg">
+Angela N Holloway</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View relative details for Brittney L Gates" class="relative" href="/detail/brittney-l-gates/pidnzgmalzgaablqqylbgmm">
+Brittney L Gates</a>
+<span class="more-relatives mb-0">
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+[8] more...
+</span>
+</div>
+<div class="col-md-12 mb-2 mt-1 text-secondary">
+<h3 class="mb-0 section-label d-inline">
+<i class="fad fa-users text-warning mr-1 mb-1">
+</i>
+<span class="associates-label">
+Associated with</span>
+</h3>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View associate details for Darrick A Caudill" class="associate" href="/detail/darrick-a-caudill/pidnagmblzqzylmlxmblxpq">
+Darrick A Caudill</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View associate details for Mercy L Ruttinger" class="associate" href="/detail/mercy-l-ruttinger/pidgxmqmqzgpalqlgyaygz">
+Mercy L Ruttinger</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View associate details for David L Anderson" class="associate" href="/detail/david-l-anderson/pidaqmzgyylybxmggylbzm">
+David L Anderson</a>
+<span class="more-associates mb-0">
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+[8] more...
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6 mt-1 mb-3">
+</div>
+</div>
+<div class="row">
+<div   class="col-md-6 mt-1 mb-3">
+<a title="View full address history, phone history, emails, relatives, associates, businesses and more for Bill W Gates in Seattle, WA 98107 2833" class="btn btn-primary btn-block" href="/detail/bill-w-gates/pidnglmyqmxmammyalbgllq">
+<i class="fas fa-eye mr-1 mb-1">
+</i>
+VIEW DETAILS
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="card card-hover" >
+<div class="card-header bg-white">
+<div class="row">
+<div class="col-md-12 my-auto">
+<h2 class="mb-0">
+<i class="fad fa-user-circle text-warning mr-1">
+</i>
+<span class="name-searched-on">
+Bill Gates
+</span>
+<span class="age-label text-secondary">
+Age: </span>
+<span class="age">
+48</span>
+<span class="goes-by-label">
+ goes by: </span>
+<span class="name-given">
+Willam T Gates
+</span>
+</h2>
+</div>
+</div>
+</div>
+<div class="card-body pt-3 pb-0">
+<div class="row">
+<div class="col-md-12">
+<div class="row">
+<div class="col-md-12 text-secondary">
+<h3 class="mb-0 section-label d-inline mr-1">
+<i class="fad fa-home text-warning mr-1">
+</i>
+<span class="address-current-label">
+Lives at
+</span>
+</h3>
+<p class="address-current max-lines-1 d-inline">
+<a class="address" title="Find other people associated with 1239 NE 105th St, Seattle, WA 98125 7530" href="/address/1239-ne-105th-st/seattle/wa">
+1239 NE 105th St, Seattle, WA 98125 7530</a>
+<small class="text-muted county">
+[King County]</small>
+</p>
+</div>
+<div class="col-md-12 mb-2 text-secondary">
+<h3 class="mb-0 section-label mt-3">
+<i class="fad fa-history text-warning mr-1 mb-1">
+</i>
+<span class="address-previous-label">
+Used to live</span>
+</h3>
+<p class="mb-0 address-previous max-lines-1">
+<a class="address" title="Find other people associated with 8800 20th Ave APT B106 NE, Seattle, WA 98115 3285" href="/address/8800-20th-ave-apt-b106-ne/seattle/wa">
+8800 20th Ave APT B106 NE, Seattle, WA 98115 3285</a>
+<small class="text-muted county">
+[King County]</small>
+</p>
+<p class="mb-0 address-previous max-lines-1">
+<a class="address" title="Find other people associated with 724 21st St APT 3, Hermosa Beach, CA 90254 3008" href="/address/724-21st-st-apt-3/hermosa-beach/ca">
+724 21st St APT 3, Hermosa Beach, CA 90254 3008</a>
+<small class="text-muted county">
+[Los Angeles County]</small>
+</p>
+<p class="mb-0 address-previous max-lines-1">
+<a class="address" title="Find other people associated with 10417 11th Ave NE, Seattle, WA 98125 7503" href="/address/10417-11th-ave-ne/seattle/wa">
+10417 11th Ave NE, Seattle, WA 98125 7503</a>
+<small class="text-muted county">
+[King County]</small>
+</p>
+<p class="more-addresses mb-0">
+[8] more...
+</p>
+</div>
+<div class="col-md-12 mb-2 mt-1 text-secondary">
+<h3 class="mb-0 section-label d-inline">
+<i class="fad fa-id-card text-warning mr-1 mb-1">
+</i>
+<span class="akas-label">
+Other observed names</span>
+</h3>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<span class="aka">
+William T Gates</span>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<span class="aka">
+William Gates</span>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<span class="aka">
+W Gates</span>
+<span class="more-addresses mb-0">
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+[3] more...
+</span>
+</div>
+<div class="col-md-12 mb-2 mt-1 text-secondary">
+<h3 class="mb-0 section-label d-inline">
+<i class="fad fa-mobile-alt text-warning mr-1 mb-1">
+</i>
+<span class="phones-label">
+Phones</span>
+</h3>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="Find other people associated with (206) 522-4829 (LandLine/Services - Qwest Corporation)" class="phone" href="/phone/206-522-4829">
+(206) 522-4829</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="Find other people associated with (253) 927-6482 (LandLine/Services - Qwest Corporation)" class="phone" href="/phone/253-927-6482">
+(253) 927-6482</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="Find other people associated with (206) 683-5632 (Wireless - Sprint Spectrum LP)" class="phone" href="/phone/206-683-5632">
+(206) 683-5632</a>
+<span class="more-phones mb-0">
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+ [3] more...
+</span>
+</div>
+<div class="col-md-12 mb-2 mt-1 text-secondary">
+<h3 class="mb-0 section-label d-inline">
+<i class="fad fa-sitemap text-warning mr-1 mb-1">
+</i>
+<span class="relatives-label">
+Related to</span>
+</h3>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View relative details for Julie Diane Gates" class="relative" href="/detail/julie-diane-gates/pidbzaqagmpbqxpgayqygx">
+Julie Diane Gates</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View relative details for Alice E Valania" class="relative" href="/detail/alice-e-valania/pidylmpzgqzxlqggxlpzxq">
+Alice E Valania</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View relative details for Mary E Gates" class="relative" href="/detail/mary-e-gates/pidmqaayqgqzlglzbbgqm">
+Mary E Gates</a>
+<span class="more-relatives mb-0">
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+[8] more...
+</span>
+</div>
+<div class="col-md-12 mb-2 mt-1 text-secondary">
+<h3 class="mb-0 section-label d-inline">
+<i class="fad fa-users text-warning mr-1 mb-1">
+</i>
+<span class="associates-label">
+Associated with</span>
+</h3>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View associate details for Jeb G Freedman" class="associate" href="/detail/jeb-g-freedman/pidngbxazmzqlzlqxlaygql">
+Jeb G Freedman</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View associate details for Jennifer Valerie Melena" class="associate" href="/detail/jennifer-valerie-melena/pidplpqqqalqllzgqzaqqg">
+Jennifer Valerie Melena</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View associate details for Veronica L Vazquez" class="associate" href="/detail/veronica-l-vazquez/pidqqlqbyappxzgaqgggay">
+Veronica L Vazquez</a>
+<span class="more-associates mb-0">
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+[1] more...
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6 mt-1 mb-3">
+</div>
+</div>
+<div class="row">
+<div   class="col-md-6 mt-1 mb-3">
+<a title="View full address history, phone history, emails, relatives, associates, businesses and more for Willam T Gates in Seattle, WA 98125 7530" class="btn btn-primary btn-block" href="/detail/willam-t-gates/pidnmqxglgmzppbgqbbplxl">
+<i class="fas fa-eye mr-1 mb-1">
+</i>
+VIEW DETAILS
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="card card-hover" >
+<div class="card-header bg-white">
+<div class="row">
+<div class="col-md-12 my-auto">
+<h2 class="mb-0">
+<i class="fad fa-user-circle text-warning mr-1">
+</i>
+<span class="name-searched-on">
+Bill Gates
+</span>
+<span class="age-label text-secondary">
+Age: </span>
+<span class="age">
+74</span>
+<span class="goes-by-label">
+ goes by: </span>
+<span class="name-given">
+William Gates
+</span>
+</h2>
+</div>
+</div>
+</div>
+<div class="card-body pt-3 pb-0">
+<div class="row">
+<div class="col-md-12">
+ <div class="row">
+<div class="col-md-12 text-secondary">
+<h3 class="mb-0 section-label d-inline mr-1">
+<i class="fad fa-home text-warning mr-1">
+</i>
+<span class="address-current-label">
+Lives at
+</span>
+</h3>
+<p class="address-current max-lines-1 d-inline">
+<a class="address" title="Find other people associated with 413 S Main St, Gainesville, FL 32601 6723" href="/address/413-s-main-st/gainesville/fl">
+413 S Main St, Gainesville, FL 32601 6723</a>
+<small class="text-muted county">
+[Alachua County]</small>
+</p>
+</div>
+<div class="col-md-12 mb-2 text-secondary">
+<h3 class="mb-0 section-label mt-3">
+<i class="fad fa-history text-warning mr-1 mb-1">
+</i>
+<span class="address-previous-label">
+Used to live</span>
+</h3>
+<p class="mb-0 address-previous max-lines-1">
+<a class="address" title="Find other people associated with 1303 NW 6th St, Gainesville, FL 32601 4266" href="/address/1303-nw-6th-st/gainesville/fl">
+1303 NW 6th St, Gainesville, FL 32601 4266</a>
+<small class="text-muted county">
+[Alachua County]</small>
+</p>
+<p class="mb-0 address-previous max-lines-1">
+<a class="address" title="Find other people associated with 3136 Sawtooth Dr, Tallahassee, FL 32303 7376" href="/address/3136-sawtooth-dr/tallahassee/fl">
+3136 Sawtooth Dr, Tallahassee, FL 32303 7376</a>
+<small class="text-muted county">
+[Leon County]</small>
+</p>
+<p class="mb-0 address-previous max-lines-1">
+<a class="address" title="Find other people associated with 1637 Stuckey Ave, Tallahassee, FL 32310 5271" href="/address/1637-stuckey-ave/tallahassee/fl">
+1637 Stuckey Ave, Tallahassee, FL 32310 5271</a>
+<small class="text-muted county">
+[Leon County]</small>
+</p>
+<p class="more-addresses mb-0">
+[10] more...
+</p>
+</div>
+<div class="col-md-12 mb-2 mt-1 text-secondary">
+<h3 class="mb-0 section-label d-inline">
+<i class="fad fa-id-card text-warning mr-1 mb-1">
+</i>
+<span class="akas-label">
+Other observed names</span>
+</h3>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<span class="aka">
+William L Gates</span>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<span class="aka">
+Bill Gates</span>
+</div>
+<div class="col-md-12 mb-2 mt-1 text-secondary">
+<h3 class="mb-0 section-label d-inline">
+<i class="fad fa-mobile-alt text-warning mr-1 mb-1">
+</i>
+<span class="phones-label">
+Phones</span>
+</h3>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="Find other people associated with (352) 872-6761 (Wireless - Sprint Spectrum LP)" class="phone" href="/phone/352-872-6761">
+(352) 872-6761</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="Find other people associated with (850) 576-5111 (LandLine/Services - Embarq Florida Inc (Central) dba CenturyLink)" class="phone" href="/phone/850-576-5111">
+(850) 576-5111</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="Find other people associated with (904) 378-9079 (LandLine/Services - Bellsouth Telecommunications Inc dba Southern Bell Telephone &amp; Telegraph)" class="phone" href="/phone/904-378-9079">
+(904) 378-9079</a>
+</div>
+<div class="col-md-12 mb-2 mt-1 text-secondary">
+<h3 class="mb-0 section-label d-inline">
+<i class="fad fa-sitemap text-warning mr-1 mb-1">
+</i>
+<span class="relatives-label">
+Related to</span>
+</h3>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View relative details for William L Gates" class="relative" href="/detail/william-l-gates/pidabmxapylmqmaymmylml">
+William L Gates</a>
+</div>
+<div class="col-md-12 mb-2 mt-1 text-secondary">
+<h3 class="mb-0 section-label d-inline">
+<i class="fad fa-users text-warning mr-1 mb-1">
+</i>
+<span class="associates-label">
+Associated with</span>
+</h3>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View associate details for Baixi Lin" class="associate" href="/detail/baixi-lin/pidnzlgxayyqbxzxgglyggm">
+Baixi Lin</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View associate details for Carlos T Rodela" class="associate" href="/detail/carlos-t-rodela/pidabgymyalaaqpzyyplzp">
+Carlos T Rodela</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View associate details for Charles E Minger" class="associate" href="/detail/charles-e-minger/pidnqpzgllyyaqayqgzaxpm">
+Charles E Minger</a>
+<span class="more-associates mb-0">
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+[8] more...
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6 mt-1 mb-3">
+</div>
+</div>
+ <div class="row">
+<div   class="col-md-6 mt-1 mb-3">
+<a title="View full address history, phone history, emails, relatives, associates, businesses and more for William Gates in Gainesville, FL 32601 6723" class="btn btn-primary btn-block" href="/detail/william-gates/pidnalbzamgymzyzgmglmmb">
+<i class="fas fa-eye mr-1 mb-1">
+</i>
+VIEW DETAILS
+</a>
+</div>
+</div>
+</div>
+</div>
+<div data-aaad="true" data-aa-adunit="/22815767462/CBC_Name_mid2" class="d-none d-sm-block"  data-status="rendered"  data-aa-device="[&quot;desktop&quot;,&quot;tinyDesktop&quot;,&quot;tablet&quot;]" data-aa-sizes="[[728,90],[300,250]]" data-aa-lazy-loaded="false" data-aa-refresh-viewable="30" data-google-query->
+<div  >
+<iframe  name="google_ads_iframe_/22815767462,1011055/CBC_Name_mid2_0" title="3rd party ad content" width="300" height="250" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" role="region"  tabindex="0"  data-load-complete="true" data-google-container- data-gtm-yt-inspected-7="true">
+</iframe>
+</div>
+</div>
+<div class="row">
+<div class="col text-center">
+<div data-aaad="true" data-aa-adunit="/22815767462/CBC_Name_Mob_mid2" class="mx-auto d-sm-none"  data-status="skipped"  data-aa-device="[&quot;mobile&quot;]" data-aa-sizes="[[300,250],[320,50],[320,100],[300,50],[300,100]]" data-aa-lazy-loaded="false" data-aa-refresh-viewable="30">
+</div>
+</div>
+</div>
+<div class="card card-hover" >
+<div class="card-header bg-white">
+<div class="row">
+<div class="col-md-12 my-auto">
+<h2 class="mb-0">
+<i class="fad fa-user-circle text-warning mr-1">
+</i>
+<span class="name-searched-on">
+Bill Gates
+</span>
+<span class="age-label text-secondary">
+Age: </span>
+<span class="goes-by-label">
+ goes by: </span>
+<span class="name-given">
+William C Gates
+</span>
+</h2>
+</div>
+</div>
+</div>
+<div class="card-body pt-3 pb-0">
+<div class="row">
+<div class="col-md-12">
+<div class="row">
+<div class="col-md-12 text-secondary">
+<h3 class="mb-0 section-label d-inline mr-1">
+<i class="fad fa-home text-warning mr-1">
+</i>
+<span class="address-current-label">
+Lives at
+</span>
+</h3>
+<p class="address-current max-lines-1 d-inline">
+<a class="address" title="Find other people associated with 10830 34th Ave SW, Seattle, WA 98146 1715" href="/address/10830-34th-ave-sw/seattle/wa">
+10830 34th Ave SW, Seattle, WA 98146 1715</a>
+<small class="text-muted county">
+[King County]</small>
+</p>
+</div>
+<div class="col-md-12 mb-2 mt-1 text-secondary">
+<h3 class="mb-0 section-label d-inline">
+<i class="fad fa-id-card text-warning mr-1 mb-1">
+</i>
+<span class="akas-label">
+Other observed names</span>
+</h3>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<span class="aka">
+Bill C Gates</span>
+</div>
+<div class="col-md-12 mb-2 mt-1 text-secondary">
+<h3 class="mb-0 section-label d-inline">
+<i class="fad fa-mobile-alt text-warning mr-1 mb-1">
+</i>
+<span class="phones-label">
+Phones</span>
+</h3>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="Find other people associated with (206) 242-1322 (LandLine/Services - Qwest Corporation)" class="phone" href="/phone/206-242-1322">
+(206) 242-1322</a>
+</div>
+<div class="col-md-12 mb-2 mt-1 text-secondary">
+<h3 class="mb-0 section-label d-inline">
+<i class="fad fa-sitemap text-warning mr-1 mb-1">
+</i>
+<span class="relatives-label">
+Related to</span>
+</h3>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View relative details for Clifton R Gates" class="relative" href="/detail/clifton-r-gates/pidpabbgpayqppglbpyap">
+Clifton R Gates</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View relative details for Ivan L Gates" class="relative" href="/detail/ivan-l-gates/pidyapqyqzgmglmaapagyl">
+Ivan L Gates</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View relative details for Maxine M Gates" class="relative" href="/detail/maxine-m-gates/pidnqmxqylxpgzbzmpqblxq">
+Maxine M Gates</a>
+<span class="more-relatives mb-0">
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+[1] more...
+</span>
+</div>
+<div class="col-md-12 mb-2 mt-1 text-secondary">
+<h3 class="mb-0 section-label d-inline">
+<i class="fad fa-users text-warning mr-1 mb-1">
+</i>
+<span class="associates-label">
+Associated with</span>
+</h3>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View associate details for Maria Louise Sollesvik" class="associate" href="/detail/maria-louise-sollesvik/pidygxpxymyxyaqzlaqgbp">
+Maria Louise Sollesvik</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View associate details for Robert Dean Sollesvik" class="associate" href="/detail/robert-dean-sollesvik/pidzlagmqpxlpllyzgxbgy">
+Robert Dean Sollesvik</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View associate details for Scott Sollesvik" class="associate" href="/detail/scott-sollesvik/pidmaxyzxalblgxppplpgm">
+Scott Sollesvik</a>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6 mt-1 mb-3">
+</div>
+</div>
+<div class="row">
+<div   class="col-md-6 mt-1 mb-3">
+<a title="View full address history, phone history, emails, relatives, associates, businesses and more for William C Gates in Seattle, WA 98146 1715" class="btn btn-primary btn-block" href="/detail/william-c-gates/pidzmbbxglylxzyqqmgplq">
+<i class="fas fa-eye mr-1 mb-1">
+</i>
+VIEW DETAILS
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="card card-hover" >
+<div class="card-header bg-white">
+<div class="row">
+<div class="col-md-12 my-auto">
+<h2 class="mb-0">
+<i class="fad fa-user-circle text-warning mr-1">
+</i>
+<span class="name-searched-on">
+Bill Gates
+</span>
+<span class="age-label text-secondary">
+Age: </span>
+<span class="age">
+79</span>
+<span class="goes-by-label">
+ goes by: </span>
+<span class="name-given">
+William H Gates
+</span>
+</h2>
+</div>
+</div>
+</div>
+<div class="card-body pt-3 pb-0">
+<div class="row">
+<div class="col-md-12">
+<div class="row">
+<div class="col-md-12 text-secondary">
+<h3 class="mb-0 section-label d-inline mr-1">
+<i class="fad fa-home text-warning mr-1">
+</i>
+<span class="address-current-label">
+Lives at
+</span>
+</h3>
+<p class="address-current max-lines-1 d-inline">
+<a class="address" title="Find other people associated with 4340 N Club Ct UNIT C, Grand Junction, CO 81506 1429" href="/address/4340-n-club-ct-unit-c/grand-junction/co">
+4340 N Club Ct UNIT C, Grand Junction, CO 81506 1429</a>
+<small class="text-muted county">
+[Mesa County]</small>
+</p>
+</div>
+<div class="col-md-12 mb-2 text-secondary">
+<h3 class="mb-0 section-label mt-3">
+<i class="fad fa-history text-warning mr-1 mb-1">
+</i>
+<span class="address-previous-label">
+Used to live</span>
+</h3>
+<p class="mb-0 address-previous max-lines-1">
+<a class="address" title="Find other people associated with 2515 Snowmass Ct, Grand Junction, CO 81507 1752" href="/address/2515-snowmass-ct/grand-junction/co">
+2515 Snowmass Ct, Grand Junction, CO 81507 1752</a>
+<small class="text-muted county">
+[Mesa County]</small>
+</p>
+<p class="mb-0 address-previous max-lines-1">
+<a class="address" title="Find other people associated with 2828 Utica St, Denver, CO 80212 3048" href="/address/2828-utica-st/denver/co">
+2828 Utica St, Denver, CO 80212 3048</a>
+<small class="text-muted county">
+[Denver County]</small>
+</p>
+<p class="mb-0 address-previous max-lines-1">
+<a class="address" title="Find other people associated with 1015 Morton St, Ashland, OR 97520 3160" href="/address/1015-morton-st/ashland/or">
+1015 Morton St, Ashland, OR 97520 3160</a>
+<small class="text-muted county">
+[Jackson County]</small>
+</p>
+<p class="more-addresses mb-0">
+[10] more...
+</p>
+</div>
+<div class="col-md-12 mb-2 mt-1 text-secondary">
+<h3 class="mb-0 section-label d-inline">
+<i class="fad fa-id-card text-warning mr-1 mb-1">
+</i>
+<span class="akas-label">
+Other observed names</span>
+</h3>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<span class="aka">
+William Gates</span>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<span class="aka">
+Bill Gates</span>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<span class="aka">
+W Gates</span>
+<span class="more-addresses mb-0">
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+[3] more...
+</span>
+</div>
+<div class="col-md-12 mb-2 mt-1 text-secondary">
+<h3 class="mb-0 section-label d-inline">
+<i class="fad fa-mobile-alt text-warning mr-1 mb-1">
+</i>
+<span class="phones-label">
+Phones</span>
+</h3>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="Find other people associated with (541) 613-4390 (Wireless - Cellco Partnership dba Verizon Wireless - OR)" class="phone" href="/phone/541-613-4390">
+(541) 613-4390</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="Find other people associated with (541) 482-2136 (LandLine/Services - Qwest Corporation)" class="phone" href="/phone/541-482-2136">
+(541) 482-2136</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="Find other people associated with (707) 539-5126 (LandLine/Services - Pacific Bell Telephone Company)" class="phone" href="/phone/707-539-5126">
+(707) 539-5126</a>
+<span class="more-phones mb-0">
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+[3] more...
+</span>
+</div>
+<div class="col-md-12 mb-2 mt-1 text-secondary">
+<h3 class="mb-0 section-label d-inline">
+<i class="fad fa-sitemap text-warning mr-1 mb-1">
+</i>
+<span class="relatives-label">
+Related to</span>
+</h3>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View relative details for Catherine Phan Gates" class="relative" href="/detail/catherine-phan-gates/pidnaqbazmzmbayxyaypqmz">
+Catherine Phan Gates</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View relative details for Dale D Gates" class="relative" href="/detail/dale-d-gates/pidngbgagpmgqyzblxqbypy">
+Dale D Gates</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View relative details for Hillary E Bilger" class="relative" href="/detail/hillary-e-bilger/pidnapypmagppmybxqxmgzy">
+Hillary E Bilger</a>
+<span class="more-relatives mb-0">
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+[8] more...
+</span>
+</div>
+<div class="col-md-12 mb-2 mt-1 text-secondary">
+<h3 class="mb-0 section-label d-inline">
+<i class="fad fa-users text-warning mr-1 mb-1">
+</i>
+<span class="associates-label">
+Associated with</span>
+</h3>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View associate details for Michael W Bilger" class="associate" href="/detail/michael-w-bilger/pidympbzapggbmzzzpagzl">
+Michael W Bilger</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View associate details for Bruce Jennings" class="associate" href="/detail/bruce-jennings/pidnygzyblzmxyzgzzlqbqa">
+Bruce Jennings</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View associate details for Charles K Anza" class="associate" href="/detail/charles-k-anza/pidnagmqzbxpbyzmqlglggb">
+Charles K Anza</a>
+<span class="more-associates mb-0">
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+[8] more...
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6 mt-1 mb-3">
+</div>
+</div>
+<div class="row">
+<div   class="col-md-6 mt-1 mb-3">
+<a title="View full address history, phone history, emails, relatives, associates, businesses and more for William H Gates in Grand Junction, CO 81506 1429" class="btn btn-primary btn-block" href="/detail/william-h-gates/pidnzmmmyzmblmmammalpgx">
+<i class="fas fa-eye mr-1 mb-1">
+</i>
+VIEW DETAILS
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="card card-hover" >
+<div class="card-header bg-white">
+<div class="row">
+<div class="col-md-12 my-auto">
+<h2 class="mb-0">
+<i class="fad fa-user-circle text-warning mr-1">
+</i>
+<span class="name-searched-on">
+Bill Gates
+</span>
+<span class="age-label text-secondary">
+Age: </span>
+<span class="age">
+97</span>
+<span class="goes-by-label">
+ goes by: </span>
+<span class="name-given">
+William H Gates JR
+</span>
+</h2>
+</div>
+</div>
+</div>
+<div class="card-body pt-3 pb-0">
+<div class="row">
+<div class="col-md-12">
+<div class="row">
+<div class="col-md-12 text-secondary">
+<h3 class="mb-0 section-label d-inline mr-1">
+<i class="fad fa-home text-warning mr-1">
+</i>
+<span class="address-current-label">
+Lives at
+</span>
+</h3>
+<p class="address-current max-lines-1 d-inline">
+<a class="address" title="Find other people associated with 1309 Lake Washington Blvd S, Seattle, WA 98144 4017" href="/address/1309-lake-washington-blvd-s/seattle/wa">
+1309 Lake Washington Blvd S, Seattle, WA 98144 4017</a>
+<small class="text-muted county">
+[King County]</small>
+</p>
+</div>
+<div class="col-md-12 mb-2 text-secondary">
+<h3 class="mb-0 section-label mt-3">
+<i class="fad fa-history text-warning mr-1 mb-1">
+</i>
+<span class="address-previous-label">
+Used to live</span>
+</h3>
+<p class="mb-0 address-previous max-lines-1">
+<a class="address" title="Find other people associated with 5161 NE 41st St, Seattle, WA 98105 4955" href="/address/5161-ne-41st-st/seattle/wa">
+5161 NE 41st St, Seattle, WA 98105 4955</a>
+<small class="text-muted county">
+[King County]</small>
+</p>
+<p class="mb-0 address-previous max-lines-1">
+<a class="address" title="Find other people associated with 5000 Po Box, Medina, WA 98039 5000" href="/address/5000-po-box/medina/wa">
+5000 Po Box, Medina, WA 98039 5000</a>
+<small class="text-muted county">
+[King County]</small>
+</p>
+<p class="mb-0 address-previous max-lines-1">
+<a class="address" title="Find other people associated with 1551 Eastlake Ave E, Seattle, WA 98102 7402" href="/address/1551-eastlake-ave-e/seattle/wa">
+1551 Eastlake Ave E, Seattle, WA 98102 7402</a>
+<small class="text-muted county">
+[King County]</small>
+</p>
+</div>
+<div class="col-md-12 mb-2 mt-1 text-secondary">
+<h3 class="mb-0 section-label d-inline">
+<i class="fad fa-id-card text-warning mr-1 mb-1">
+</i>
+<span class="akas-label">
+Other observed names</span>
+</h3>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<span class="aka">
+William Hgates</span>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<span class="aka">
+William H Gates</span>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<span class="aka">
+William Gates</span>
+<span class="more-addresses mb-0">
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+[3] more...
+</span>
+</div>
+<div class="col-md-12 mb-2 mt-1 text-secondary">
+<h3 class="mb-0 section-label d-inline">
+<i class="fad fa-mobile-alt text-warning mr-1 mb-1">
+</i>
+<span class="phones-label">
+Phones</span>
+</h3>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="Find other people associated with (206) 527-5444 (LandLine/Services - Qwest Corporation)" class="phone" href="/phone/206-527-5444">
+(206) 527-5444</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="Find other people associated with (360) 468-4148 (LandLine/Services - CenturyTel of Inter-Island Inc dba CenturyLink)" class="phone" href="/phone/360-468-4148">
+(360) 468-4148</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="Find other people associated with (206) 363-4964 (LandLine/Services - Qwest Corporation)" class="phone" href="/phone/206-363-4964">
+(206) 363-4964</a>
+</div>
+<div class="col-md-12 mb-2 mt-1 text-secondary">
+<h3 class="mb-0 section-label d-inline">
+<i class="fad fa-sitemap text-warning mr-1 mb-1">
+</i>
+<span class="relatives-label">
+Related to</span>
+</h3>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View relative details for Bill Gates" class="relative" href="/detail/bill-gates/pidpgqbbbgqlbmaxpmzpgy">
+Bill Gates</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View relative details for Elizabeth Gates Armintrout" class="relative" href="/detail/elizabeth-gates-armintrout/pidgmyqxxqxpqlzppyybm">
+Elizabeth Gates Armintrout</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View relative details for Jennifer K Gates" class="relative" href="/detail/jennifer-k-gates/pidmxpxxmmbxzzpyypmaxg">
+Jennifer K Gates</a>
+<span class="more-relatives mb-0">
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+[8] more...
+</span>
+</div>
+<div class="col-md-12 mb-2 mt-1 text-secondary">
+<h3 class="mb-0 section-label d-inline">
+<i class="fad fa-users text-warning mr-1 mb-1">
+</i>
+<span class="associates-label">
+Associated with</span>
+</h3>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View associate details for Sharon Scott Stacy" class="associate" href="/detail/sharon-scott-stacy/pidaxxbqzxmaxqgapzmppq">
+Sharon Scott Stacy</a>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6 mt-1 mb-3">
+</div>
+</div>
+<div class="row">
+<div   class="col-md-6 mt-1 mb-3">
+<a title="View full address history, phone history, emails, relatives, associates, businesses and more for William H Gates JR in Seattle, WA 98144 4017" class="btn btn-primary btn-block" href="/detail/william-h-gates/pidzqqbbxbllxbgbbgaamy">
+<i class="fas fa-eye mr-1 mb-1">
+</i>
+ VIEW DETAILS
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col text-center">
+<div data-aaad="true" data-aa-adunit="/22815767462/CBC_Name_Mob_mid3" class="mx-auto d-sm-none"  data-status="skipped"  data-aa-device="[&quot;mobile&quot;]" data-aa-sizes="[[300,250],[320,50],[320,100],[300,50],[300,100]]" data-aa-lazy-loaded="false" data-aa-refresh-viewable="30">
+</div>
+</div>
+</div>
+<div class="card card-hover" >
+<div class="card-header bg-white">
+<div class="row">
+<div class="col-md-12 my-auto">
+<h2 class="mb-0">
+<i class="fad fa-user-circle text-warning mr-1">
+</i>
+<span class="name-searched-on">
+Bill Gates
+</span>
+<span class="age-label text-secondary">
+Age: </span>
+<span class="age">
+41</span>
+<span class="goes-by-label">
+ goes by: </span>
+<span class="name-given">
+Willie J Gates
+</span>
+</h2>
+</div>
+</div>
+</div>
+<div class="card-body pt-3 pb-0">
+<div class="row">
+<div class="col-md-12">
+<div class="row">
+<div class="col-md-12 text-secondary">
+<h3 class="mb-0 section-label d-inline mr-1">
+<i class="fad fa-home text-warning mr-1">
+</i>
+<span class="address-current-label">
+Lives at
+</span>
+</h3>
+<p class="address-current max-lines-1 d-inline">
+<a class="address" title="Find other people associated with 2405 S Star Lake Rd APT 55103, Federal Way, WA 98003 6915" href="/address/2405-s-star-lake-rd-apt-55103/federal-way/wa">
+2405 S Star Lake Rd APT 55103, Federal Way, WA 98003 6915</a>
+<small class="text-muted county">
+[King County]</small>
+</p>
+</div>
+<div class="col-md-12 mb-2 text-secondary">
+<h3 class="mb-0 section-label mt-3">
+<i class="fad fa-history text-warning mr-1 mb-1">
+</i>
+<span class="address-previous-label">
+Used to live</span>
+</h3>
+<p class="mb-0 address-previous max-lines-1">
+<a class="address" title="Find other people associated with 6401 21st St NE, Tacoma, WA 98422 3602" href="/address/6401-21st-st-ne/tacoma/wa">
+6401 21st St NE, Tacoma, WA 98422 3602</a>
+<small class="text-muted county">
+[Pierce County]</small>
+</p>
+ <p class="mb-0 address-previous max-lines-1">
+<a class="address" title="Find other people associated with 28622 46th Ave S, Auburn, WA 98001 1142" href="/address/28622-46th-ave-s/auburn/wa">
+28622 46th Ave S, Auburn, WA 98001 1142</a>
+<small class="text-muted county">
+[King County]</small>
+</p>
+<p class="mb-0 address-previous max-lines-1">
+<a class="address" title="Find other people associated with 5414 S Steele St APT 10, Tacoma, WA 98409 7002" href="/address/5414-s-steele-st-apt-10/tacoma/wa">
+5414 S Steele St APT 10, Tacoma, WA 98409 7002</a>
+<small class="text-muted county">
+[Pierce County]</small>
+</p>
+<p class="more-addresses mb-0">
+[17] more...
+</p>
+</div>
+<div class="col-md-12 mb-2 mt-1 text-secondary">
+<h3 class="mb-0 section-label d-inline">
+<i class="fad fa-id-card text-warning mr-1 mb-1">
+</i>
+<span class="akas-label">
+Other observed names</span>
+</h3>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<span class="aka">
+Willie Jean Gates</span>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<span class="aka">
+Willie Jean Keller</span>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<span class="aka">
+Willie Gates</span>
+<span class="more-addresses mb-0">
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+[6] more...
+</span>
+</div>
+<div class="col-md-12 mb-2 mt-1 text-secondary">
+<h3 class="mb-0 section-label d-inline">
+<i class="fad fa-mobile-alt text-warning mr-1 mb-1">
+</i>
+<span class="phones-label">
+Phones</span>
+</h3>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="Find other people associated with (253) 874-1279 (LandLine/Services - Qwest Corporation)" class="phone" href="/phone/253-874-1279">
+(253) 874-1279</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="Find other people associated with (206) 450-0572 (Wireless - Cellco Partnership dba Verizon Wireless - WA)" class="phone" href="/phone/206-450-0572">
+(206) 450-0572</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="Find other people associated with (206) 981-1585 (Wireless - MetroPCS Inc)" class="phone" href="/phone/206-981-1585">
+(206) 981-1585</a>
+<span class="more-phones mb-0">
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+[8] more...
+</span>
+</div>
+<div class="col-md-12 mb-2 mt-1 text-secondary">
+<h3 class="mb-0 section-label d-inline">
+<i class="fad fa-sitemap text-warning mr-1 mb-1">
+</i>
+<span class="relatives-label">
+Related to</span>
+ </h3>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View relative details for Dawn N Hals" class="relative" href="/detail/dawn-n-hals/pidyzxaypbmgxyapmyqqbm">
+Dawn N Hals</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View relative details for Dorothy M Mitchell" class="relative" href="/detail/dorothy-m-mitchell/pidpygmlbpxgbmapgqmaml">
+Dorothy M Mitchell</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View relative details for Felisha A Curry" class="relative" href="/detail/felisha-a-curry/pidmamyymzyzqgyggylyy">
+Felisha A Curry</a>
+<span class="more-relatives mb-0">
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+[8] more...
+</span>
+</div>
+<div class="col-md-12 mb-2 mt-1 text-secondary">
+<h3 class="mb-0 section-label d-inline">
+<i class="fad fa-users text-warning mr-1 mb-1">
+</i>
+<span class="associates-label">
+Associated with</span>
+</h3>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View associate details for Steven Crane Spellman" class="associate" href="/detail/steven-crane-spellman/pidnygmzmmblbmgpamyllag">
+Steven Crane Spellman</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View associate details for Beatrice E Wilson" class="associate" href="/detail/beatrice-e-wilson/pidqalyaqlyqyaxgppmpzg">
+Beatrice E Wilson</a>
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+<a title="View associate details for Jamela T Simon" class="associate" href="/detail/jamela-t-simon/pidnmpablabayglpmlblbma">
+Jamela T Simon</a>
+<span class="more-associates mb-0">
+<span class="text-warning font-weight-bold ml-1 mr-1">
+|</span>
+[8] more...
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6 mt-1 mb-3">
+</div>
+</div>
+<div class="row">
+<div   class="col-md-6 mt-1 mb-3">
+<a title="View full address history, phone history, emails, relatives, associates, businesses and more for Willie J Gates in Federal Way, WA 98003 6915" class="btn btn-primary btn-block" href="/detail/willie-j-gates/pidnpxgzyqbgbmmzlxmxxgp">
+<i class="fas fa-eye mr-1 mb-1">
+</i>
+VIEW DETAILS
+</a>
+</div>
+</div>
+</div>
+</div>
+<div  class="card card-hover" >
+<div class="card-header bg-white">
+<div class="row">
+<div class="col-md-12 my-auto">
+<h4 class="mb-0">
+<span>
+Public Records</span>
+<span class="text-dark" >
+Sponsored by <strong>
+Beenverified.com</strong>
+</span>
+</h4>
+</div>
+</div>
+</div>
+<div class="card-body pt-3 pb-0">
+<div class="row">
+<div class="teaser-slot col-md-12">
+<div class="row mb-3">
+<div class="col-md-3 mb-3">
+<strong>
+Bill Gates</strong>
+</div>
+<div class="col-md-3 mb-3">
+Philadelphia, PA</div>
+<div class="col-md-3 mb-3">
+Age <strong>
+70</strong>
+</div>
+<div class="col-md-3">
+<a class="btn btn-primary btn-block widget-navigator-7-1131" title="" target="_blank" rel="sponsored" href="/widgetnavigator?pageType=Name&amp;siteId=33&amp;partnerId=7&amp;partnerName=BeenVerifiedSkipApi&amp;bannerTypeName=BannerTypeTeaser&amp;slotId=1131&amp;slotUniqueGuid=bbf61a25-3457-4fbd-9cde-653632b3ff50&amp;slotNumber=1&amp;requestedUrl=%26https%3a%2f%2fwww.beenverified.com%3ffn%3d%7bfirst_name%7d%26ln%3d%7blast_name%7d%26city%3d%7bcity%7d%26state%3d%7bstate%7d%26age%3d%7bage%7d%26utm_campaign%3dCBC_Name_results%26utm_medium%3daffiliate%26utm_source%3dpeoplefinders&amp;firstName=Bill&amp;lastName=Gates&amp;age=70&amp;street=1913 Dudley St&amp;city=Philadelphia&amp;state=PA&amp;email=&amp;debugMode=False&amp;impressionId=10447124350">
+DETAILS</a>
+</div>
+</div>
+<hr class="rounded">
+<div class="row mb-3">
+<div class="col-md-3 mb-3">
+<strong>
+Bill Gates</strong>
+</div>
+<div class="col-md-3 mb-3">
+Medina, WA</div>
+<div class="col-md-3 mb-3">
+Age <strong>
+67</strong>
+</div>
+<div class="col-md-3">
+<a class="btn btn-primary btn-block widget-navigator-7-1131" title="" target="_blank" rel="sponsored" href="/widgetnavigator?pageType=Name&amp;siteId=33&amp;partnerId=7&amp;partnerName=BeenVerifiedSkipApi&amp;bannerTypeName=BannerTypeTeaser&amp;slotId=1131&amp;slotUniqueGuid=bbf61a25-3457-4fbd-9cde-653632b3ff50&amp;slotNumber=1&amp;requestedUrl=%26https%3a%2f%2fwww.beenverified.com%3ffn%3d%7bfirst_name%7d%26ln%3d%7blast_name%7d%26city%3d%7bcity%7d%26state%3d%7bstate%7d%26age%3d%7bage%7d%26utm_campaign%3dCBC_Name_results%26utm_medium%3daffiliate%26utm_source%3dpeoplefinders&amp;firstName=Bill&amp;lastName=Gates&amp;age=67&amp;street=1835 73rd Ave NE&amp;city=Medina&amp;state=WA&amp;email=&amp;debugMode=False&amp;impressionId=10447124350">
+DETAILS</a>
+</div>
+</div>
+<hr class="rounded">
+<div class="row mb-3">
+<div class="col-md-3 mb-3">
+<strong>
+Bill Gates</strong>
+</div>
+<div class="col-md-3 mb-3">
+Seattle, WA</div>
+<div class="col-md-3 mb-3">
+Age <strong>
+<span class="badge badge-danger age">
+Deceased</span>
+</strong>
+</div>
+<div class="col-md-3">
+<a class="btn btn-primary btn-block widget-navigator-7-1131" title="" target="_blank" rel="sponsored" href="/widgetnavigator?pageType=Name&amp;siteId=33&amp;partnerId=7&amp;partnerName=BeenVerifiedSkipApi&amp;bannerTypeName=BannerTypeTeaser&amp;slotId=1131&amp;slotUniqueGuid=bbf61a25-3457-4fbd-9cde-653632b3ff50&amp;slotNumber=1&amp;requestedUrl=%26https%3a%2f%2fwww.beenverified.com%3ffn%3d%7bfirst_name%7d%26ln%3d%7blast_name%7d%26city%3d%7bcity%7d%26state%3d%7bstate%7d%26age%3d%7bage%7d%26utm_campaign%3dCBC_Name_results%26utm_medium%3daffiliate%26utm_source%3dpeoplefinders&amp;firstName=Bill&amp;lastName=Gates&amp;age=Deceased&amp;street=123 S Main St&amp;city=Seattle&amp;state=WA&amp;email=&amp;debugMode=False&amp;impressionId=10447124350">
+DETAILS</a>
+</div>
+</div>
+<hr class="rounded">
+<div class="row mb-3">
+<div class="col-md-3 mb-3">
+<strong>
+Bill W Gates</strong>
+</div>
+<div class="col-md-3 mb-3">
+Seattle, WA</div>
+<div class="col-md-3 mb-3">
+Age <strong>
+54</strong>
+</div>
+<div class="col-md-3">
+<a class="btn btn-primary btn-block widget-navigator-7-1131" title="" target="_blank" rel="sponsored" href="/widgetnavigator?pageType=Name&amp;siteId=33&amp;partnerId=7&amp;partnerName=BeenVerifiedSkipApi&amp;bannerTypeName=BannerTypeTeaser&amp;slotId=1131&amp;slotUniqueGuid=bbf61a25-3457-4fbd-9cde-653632b3ff50&amp;slotNumber=1&amp;requestedUrl=%26https%3a%2f%2fwww.beenverified.com%3ffn%3d%7bfirst_name%7d%26ln%3d%7blast_name%7d%26city%3d%7bcity%7d%26state%3d%7bstate%7d%26age%3d%7bage%7d%26utm_campaign%3dCBC_Name_results%26utm_medium%3daffiliate%26utm_source%3dpeoplefinders&amp;firstName=Bill&amp;lastName=Gates&amp;age=54&amp;street=833 NW 58th St&amp;city=Seattle&amp;state=WA&amp;email=&amp;debugMode=False&amp;impressionId=10447124350">
+DETAILS</a>
+</div>
+</div>
+<hr class="rounded">
+<div class="row mb-3">
+<div class="col-md-3 mb-3">
+<strong>
+Willam T Gates</strong>
+</div>
+<div class="col-md-3 mb-3">
+Seattle, WA</div>
+<div class="col-md-3 mb-3">
+Age <strong>
+48</strong>
+</div>
+<div class="col-md-3">
+<a class="btn btn-primary btn-block widget-navigator-7-1131" title="" target="_blank" rel="sponsored" href="/widgetnavigator?pageType=Name&amp;siteId=33&amp;partnerId=7&amp;partnerName=BeenVerifiedSkipApi&amp;bannerTypeName=BannerTypeTeaser&amp;slotId=1131&amp;slotUniqueGuid=bbf61a25-3457-4fbd-9cde-653632b3ff50&amp;slotNumber=1&amp;requestedUrl=%26https%3a%2f%2fwww.beenverified.com%3ffn%3d%7bfirst_name%7d%26ln%3d%7blast_name%7d%26city%3d%7bcity%7d%26state%3d%7bstate%7d%26age%3d%7bage%7d%26utm_campaign%3dCBC_Name_results%26utm_medium%3daffiliate%26utm_source%3dpeoplefinders&amp;firstName=Willam&amp;lastName=Gates&amp;age=48&amp;street=1239 NE 105th St&amp;city=Seattle&amp;state=WA&amp;email=&amp;debugMode=False&amp;impressionId=10447124350">
+DETAILS</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div  class="card card-hover" >
+<div class="card-header bg-white">
+<div class="row">
+<div class="col-md-12 my-auto">
+<h4 class="mb-0">
+<span>
+Public Records</span>
+<span class="text-dark" >
+Sponsored by <strong>
+Truthfinder.com</strong>
+</span>
+</h4>
+</div>
+</div>
+</div>
+<div class="card-body pt-3 pb-0">
+<div class="row">
+<div class="teaser-slot col-md-12">
+<div class="row mb-3">
+<div class="col-md-3 mb-3">
+<strong>
+Bill Gates</strong>
+</div>
+<div class="col-md-3 mb-3">
+Medina, WA</div>
+<div class="col-md-3 mb-3">
+Age <strong>
+67</strong>
+</div>
+<div class="col-md-3">
+<a class="btn btn-primary btn-block widget-navigator-5-1451" title="" target="_blank" rel="sponsored" href="/widgetnavigator?pageType=Name&amp;siteId=33&amp;partnerId=5&amp;partnerName=TruthFinder.com&amp;bannerTypeName=BannerTypeTeaser&amp;slotId=1451&amp;slotUniqueGuid=ceebe4de-9fac-4c94-bb6c-53c7ceaf749f&amp;slotNumber=2&amp;requestedUrl=http%3a%2f%2fpartners.truthfinder.com%2fv1%2fteaser%3ffirst_name%3dBill%26last_name%3dGates%26city%3dSeattle%26state%3dWA%26age%3d0%26user_ip%3d10.33.24.172%26sid%3dSB_MultiR%26limit%3d5%26output_format%3djson%26access_key%3da67fX7LnYkv9NegS%26https%3a%2f%2ftracking.truthfinder.com%3fa%3d1204%26oc%3d27%26c%3d282%26s1%3dNameResults%26firstName%3d%7bfirst_name%7d%26lastName%3d%7blast_name%7d%26age%3d%7bage%7d%26city%3d%7bcity%7d%26state%3d%7bstate%7d&amp;firstName=Bill&amp;lastName=Gates&amp;age=67&amp;street=&amp;city=Medina&amp;state=WA&amp;email=&amp;debugMode=False&amp;impressionId=10447124356">
+DETAILS</a>
+</div>
+</div>
+<hr class="rounded">
+<div class="row mb-3">
+<div class="col-md-3 mb-3">
+<strong>
+William D Gates</strong>
+</div>
+<div class="col-md-3 mb-3">
+Seattle, WA</div>
+<div class="col-md-3 mb-3">
+Age <strong>
+70</strong>
+</div>
+<div class="col-md-3">
+<a class="btn btn-primary btn-block widget-navigator-5-1451" title="" target="_blank" rel="sponsored" href="/widgetnavigator?pageType=Name&amp;siteId=33&amp;partnerId=5&amp;partnerName=TruthFinder.com&amp;bannerTypeName=BannerTypeTeaser&amp;slotId=1451&amp;slotUniqueGuid=ceebe4de-9fac-4c94-bb6c-53c7ceaf749f&amp;slotNumber=2&amp;requestedUrl=http%3a%2f%2fpartners.truthfinder.com%2fv1%2fteaser%3ffirst_name%3dBill%26last_name%3dGates%26city%3dSeattle%26state%3dWA%26age%3d0%26user_ip%3d10.33.24.172%26sid%3dSB_MultiR%26limit%3d5%26output_format%3djson%26access_key%3da67fX7LnYkv9NegS%26https%3a%2f%2ftracking.truthfinder.com%3fa%3d1204%26oc%3d27%26c%3d282%26s1%3dNameResults%26firstName%3d%7bfirst_name%7d%26lastName%3d%7blast_name%7d%26age%3d%7bage%7d%26city%3d%7bcity%7d%26state%3d%7bstate%7d&amp;firstName=William&amp;lastName=Gates&amp;age=70&amp;street=&amp;city=Seattle&amp;state=WA&amp;email=&amp;debugMode=False&amp;impressionId=10447124356">
+DETAILS</a>
+</div>
+</div>
+<hr class="rounded">
+<div class="row mb-3">
+<div class="col-md-3 mb-3">
+<strong>
+Bill H Gates</strong>
+</div>
+<div class="col-md-3 mb-3">
+Seattle, WA</div>
+<div class="col-md-3 mb-3">
+Age <strong>
+94</strong>
+</div>
+<div class="col-md-3">
+<a class="btn btn-primary btn-block widget-navigator-5-1451" title="" target="_blank" rel="sponsored" href="/widgetnavigator?pageType=Name&amp;siteId=33&amp;partnerId=5&amp;partnerName=TruthFinder.com&amp;bannerTypeName=BannerTypeTeaser&amp;slotId=1451&amp;slotUniqueGuid=ceebe4de-9fac-4c94-bb6c-53c7ceaf749f&amp;slotNumber=2&amp;requestedUrl=http%3a%2f%2fpartners.truthfinder.com%2fv1%2fteaser%3ffirst_name%3dBill%26last_name%3dGates%26city%3dSeattle%26state%3dWA%26age%3d0%26user_ip%3d10.33.24.172%26sid%3dSB_MultiR%26limit%3d5%26output_format%3djson%26access_key%3da67fX7LnYkv9NegS%26https%3a%2f%2ftracking.truthfinder.com%3fa%3d1204%26oc%3d27%26c%3d282%26s1%3dNameResults%26firstName%3d%7bfirst_name%7d%26lastName%3d%7blast_name%7d%26age%3d%7bage%7d%26city%3d%7bcity%7d%26state%3d%7bstate%7d&amp;firstName=Bill&amp;lastName=Gates&amp;age=94&amp;street=&amp;city=Seattle&amp;state=WA&amp;email=&amp;debugMode=False&amp;impressionId=10447124356">
+DETAILS</a>
+</div>
+</div>
+<hr class="rounded">
+<div class="row mb-3">
+<div class="col-md-3 mb-3">
+<strong>
+Bill Ward Gates</strong>
+</div>
+<div class="col-md-3 mb-3">
+Seattle, WA</div>
+<div class="col-md-3 mb-3">
+Age <strong>
+54</strong>
+</div>
+<div class="col-md-3">
+<a class="btn btn-primary btn-block widget-navigator-5-1451" title="" target="_blank" rel="sponsored" href="/widgetnavigator?pageType=Name&amp;siteId=33&amp;partnerId=5&amp;partnerName=TruthFinder.com&amp;bannerTypeName=BannerTypeTeaser&amp;slotId=1451&amp;slotUniqueGuid=ceebe4de-9fac-4c94-bb6c-53c7ceaf749f&amp;slotNumber=2&amp;requestedUrl=http%3a%2f%2fpartners.truthfinder.com%2fv1%2fteaser%3ffirst_name%3dBill%26last_name%3dGates%26city%3dSeattle%26state%3dWA%26age%3d0%26user_ip%3d10.33.24.172%26sid%3dSB_MultiR%26limit%3d5%26output_format%3djson%26access_key%3da67fX7LnYkv9NegS%26https%3a%2f%2ftracking.truthfinder.com%3fa%3d1204%26oc%3d27%26c%3d282%26s1%3dNameResults%26firstName%3d%7bfirst_name%7d%26lastName%3d%7blast_name%7d%26age%3d%7bage%7d%26city%3d%7bcity%7d%26state%3d%7bstate%7d&amp;firstName=Bill&amp;lastName=Gates&amp;age=54&amp;street=&amp;city=Seattle&amp;state=WA&amp;email=&amp;debugMode=False&amp;impressionId=10447124356">
+DETAILS</a>
+</div>
+</div>
+<hr class="rounded">
+<div class="row mb-3">
+<div class="col-md-3 mb-3">
+<strong>
+Bill Gates</strong>
+</div>
+<div class="col-md-3 mb-3">
+Seattle, WA</div>
+<div class="col-md-3 mb-3">
+Age <strong>
+</strong>
+</div>
+<div class="col-md-3">
+<a class="btn btn-primary btn-block widget-navigator-5-1451" title="" target="_blank" rel="sponsored" href="/widgetnavigator?pageType=Name&amp;siteId=33&amp;partnerId=5&amp;partnerName=TruthFinder.com&amp;bannerTypeName=BannerTypeTeaser&amp;slotId=1451&amp;slotUniqueGuid=ceebe4de-9fac-4c94-bb6c-53c7ceaf749f&amp;slotNumber=2&amp;requestedUrl=http%3a%2f%2fpartners.truthfinder.com%2fv1%2fteaser%3ffirst_name%3dBill%26last_name%3dGates%26city%3dSeattle%26state%3dWA%26age%3d0%26user_ip%3d10.33.24.172%26sid%3dSB_MultiR%26limit%3d5%26output_format%3djson%26access_key%3da67fX7LnYkv9NegS%26https%3a%2f%2ftracking.truthfinder.com%3fa%3d1204%26oc%3d27%26c%3d282%26s1%3dNameResults%26firstName%3d%7bfirst_name%7d%26lastName%3d%7blast_name%7d%26age%3d%7bage%7d%26city%3d%7bcity%7d%26state%3d%7bstate%7d&amp;firstName=Bill&amp;lastName=Gates&amp;age=&amp;street=&amp;city=Seattle&amp;state=WA&amp;email=&amp;debugMode=False&amp;impressionId=10447124356">
+DETAILS</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div  class="card card-hover" >
+<div class="card-header bg-white">
+<div class="row">
+<div class="col-md-12 my-auto">
+<h4 class="mb-0">
+<span>
+Public Records</span>
+<span class="text-dark" >
+Sponsored by <strong>
+Peoplelooker.com</strong>
+</span>
+</h4>
+</div>
+</div>
+</div>
+<div class="card-body pt-3 pb-0">
+<div class="row">
+<div class="teaser-slot col-md-12">
+<div class="row mb-3">
+<div class="col-md-3 mb-3">
+<strong>
+Bill Gates</strong>
+</div>
+<div class="col-md-3 mb-3">
+Philadelphia, PA</div>
+<div class="col-md-3 mb-3">
+Age <strong>
+70</strong>
+</div>
+<div class="col-md-3">
+<a class="btn btn-primary btn-block widget-navigator-19-1566" title="" target="_blank" rel="sponsored" href="/widgetnavigator?pageType=Name&amp;siteId=33&amp;partnerId=19&amp;partnerName=PeopleLookerSkipAPI&amp;bannerTypeName=BannerTypeTeaser&amp;slotId=1566&amp;slotUniqueGuid=14ae977d-19b8-407d-808c-32d4e3c10813&amp;slotNumber=3&amp;requestedUrl=%26https%3a%2f%2fwww.peoplelooker.com%3ffn%3d%7bfirst_name%7d%26ln%3d%7blast_name%7d%26city%3d%7bcity%7d%26state%3d%7bstate%7d%26age%3d%7bage%7d%26utm_campaign%3dPeopleLooker_CBC_Name_results%26utm_medium%3daffiliate%26utm_source%3dpeoplefinders&amp;firstName=Bill&amp;lastName=Gates&amp;age=70&amp;street=1913 Dudley St&amp;city=Philadelphia&amp;state=PA&amp;email=&amp;debugMode=False&amp;impressionId=10447124361">
+DETAILS</a>
+</div>
+</div>
+<hr class="rounded">
+<div class="row mb-3">
+<div class="col-md-3 mb-3">
+<strong>
+Bill Gates</strong>
+</div>
+<div class="col-md-3 mb-3">
+Medina, WA</div>
+<div class="col-md-3 mb-3">
+Age <strong>
+67</strong>
+</div>
+<div class="col-md-3">
+<a class="btn btn-primary btn-block widget-navigator-19-1566" title="" target="_blank" rel="sponsored" href="/widgetnavigator?pageType=Name&amp;siteId=33&amp;partnerId=19&amp;partnerName=PeopleLookerSkipAPI&amp;bannerTypeName=BannerTypeTeaser&amp;slotId=1566&amp;slotUniqueGuid=14ae977d-19b8-407d-808c-32d4e3c10813&amp;slotNumber=3&amp;requestedUrl=%26https%3a%2f%2fwww.peoplelooker.com%3ffn%3d%7bfirst_name%7d%26ln%3d%7blast_name%7d%26city%3d%7bcity%7d%26state%3d%7bstate%7d%26age%3d%7bage%7d%26utm_campaign%3dPeopleLooker_CBC_Name_results%26utm_medium%3daffiliate%26utm_source%3dpeoplefinders&amp;firstName=Bill&amp;lastName=Gates&amp;age=67&amp;street=1835 73rd Ave NE&amp;city=Medina&amp;state=WA&amp;email=&amp;debugMode=False&amp;impressionId=10447124361">
+DETAILS</a>
+</div>
+</div>
+<hr class="rounded">
+<div class="row mb-3">
+<div class="col-md-3 mb-3">
+<strong>
+Bill Gates</strong>
+</div>
+<div class="col-md-3 mb-3">
+Seattle, WA</div>
+<div class="col-md-3 mb-3">
+Age <strong>
+<span class="badge badge-danger age">
+Deceased</span>
+</strong>
+</div>
+<div class="col-md-3">
+<a class="btn btn-primary btn-block widget-navigator-19-1566" title="" target="_blank" rel="sponsored" href="/widgetnavigator?pageType=Name&amp;siteId=33&amp;partnerId=19&amp;partnerName=PeopleLookerSkipAPI&amp;bannerTypeName=BannerTypeTeaser&amp;slotId=1566&amp;slotUniqueGuid=14ae977d-19b8-407d-808c-32d4e3c10813&amp;slotNumber=3&amp;requestedUrl=%26https%3a%2f%2fwww.peoplelooker.com%3ffn%3d%7bfirst_name%7d%26ln%3d%7blast_name%7d%26city%3d%7bcity%7d%26state%3d%7bstate%7d%26age%3d%7bage%7d%26utm_campaign%3dPeopleLooker_CBC_Name_results%26utm_medium%3daffiliate%26utm_source%3dpeoplefinders&amp;firstName=Bill&amp;lastName=Gates&amp;age=Deceased&amp;street=123 S Main St&amp;city=Seattle&amp;state=WA&amp;email=&amp;debugMode=False&amp;impressionId=10447124361">
+DETAILS</a>
+</div>
+</div>
+<hr class="rounded">
+<div class="row mb-3">
+<div class="col-md-3 mb-3">
+<strong>
+Bill W Gates</strong>
+</div>
+<div class="col-md-3 mb-3">
+Seattle, WA</div>
+<div class="col-md-3 mb-3">
+Age <strong>
+54</strong>
+</div>
+<div class="col-md-3">
+<a class="btn btn-primary btn-block widget-navigator-19-1566" title="" target="_blank" rel="sponsored" href="/widgetnavigator?pageType=Name&amp;siteId=33&amp;partnerId=19&amp;partnerName=PeopleLookerSkipAPI&amp;bannerTypeName=BannerTypeTeaser&amp;slotId=1566&amp;slotUniqueGuid=14ae977d-19b8-407d-808c-32d4e3c10813&amp;slotNumber=3&amp;requestedUrl=%26https%3a%2f%2fwww.peoplelooker.com%3ffn%3d%7bfirst_name%7d%26ln%3d%7blast_name%7d%26city%3d%7bcity%7d%26state%3d%7bstate%7d%26age%3d%7bage%7d%26utm_campaign%3dPeopleLooker_CBC_Name_results%26utm_medium%3daffiliate%26utm_source%3dpeoplefinders&amp;firstName=Bill&amp;lastName=Gates&amp;age=54&amp;street=833 NW 58th St&amp;city=Seattle&amp;state=WA&amp;email=&amp;debugMode=False&amp;impressionId=10447124361">
+DETAILS</a>
+</div>
+</div>
+<hr class="rounded">
+<div class="row mb-3">
+<div class="col-md-3 mb-3">
+<strong>
+Willam T Gates</strong>
+</div>
+<div class="col-md-3 mb-3">
+Seattle, WA</div>
+<div class="col-md-3 mb-3">
+Age <strong>
+48</strong>
+</div>
+<div class="col-md-3">
+<a class="btn btn-primary btn-block widget-navigator-19-1566" title="" target="_blank" rel="sponsored" href="/widgetnavigator?pageType=Name&amp;siteId=33&amp;partnerId=19&amp;partnerName=PeopleLookerSkipAPI&amp;bannerTypeName=BannerTypeTeaser&amp;slotId=1566&amp;slotUniqueGuid=14ae977d-19b8-407d-808c-32d4e3c10813&amp;slotNumber=3&amp;requestedUrl=%26https%3a%2f%2fwww.peoplelooker.com%3ffn%3d%7bfirst_name%7d%26ln%3d%7blast_name%7d%26city%3d%7bcity%7d%26state%3d%7bstate%7d%26age%3d%7bage%7d%26utm_campaign%3dPeopleLooker_CBC_Name_results%26utm_medium%3daffiliate%26utm_source%3dpeoplefinders&amp;firstName=Willam&amp;lastName=Gates&amp;age=48&amp;street=1239 NE 105th St&amp;city=Seattle&amp;state=WA&amp;email=&amp;debugMode=False&amp;impressionId=10447124361">
+DETAILS</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="search-results__ad search-results__ad--right text-left" >
+<div data-aaad="true" data-aa-adunit="/22815767462/CBC_Name_Right" class="sticky"  data-status="rendered"  data-aa-device="[&quot;desktop&quot;,&quot;tinyDesktop&quot;,&quot;tablet&quot;]" data-aa-sizes="[[160,600],[120,600],[300,250],[300,600]]" data-aa-lazy-loaded="false" data-aa-refresh-viewable="30" data-google-query->
+<div  >
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12 pt-2 pb-0">
+<ul class="pagination justify-content-center">
+<li class="page-item disabled">
+<a class="page-link text-warning" href="#" data-toggle="tooltip" data-placement="bottom" title=""  data-original-title="First page">
+<i class="fas fa-angle-double-left text-warning">
+</i>
+</a>
+</li>
+<li class="page-item disabled">
+<a class="page-link text-warning" href="#" data-toggle="tooltip" data-placement="bottom" title=""  data-original-title="Previous page">
+<i class="fas fa-chevron-left text-warning">
+</i>
+</a>
+</li>
+<li class="page-item">
+<a class="page-link text-warning" data-toggle="tooltip" data-placement="bottom" title=""  href="/people/bill-gates/wa/seattle/2" data-original-title="Next page">
+<i class="fas fa-chevron-right text-warning">
+</i>
+</a>
+</li>
+<li class="page-item">
+<a class="page-link text-warning" data-toggle="tooltip" data-placement="bottom" title=""  href="/people/bill-gates/wa/seattle/3" data-original-title="Last page">
+<i class="fas fa-angle-double-right text-warning">
+</i>
+</a>
+</li>
+<li class="page-item disabled">
+<a class="page-link text-warning" href="#">
+<small>
+Displaying page <strong>
+1</strong>
+ of <strong>
+3</strong>
+</small>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done"  data-ad-status="unfilled">
+<div  tabindex="0" title="Advertisement"  >
+<iframe  name="aswift_0"  sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-5430101290255408&amp;output=html&amp;adk=1812271804&amp;adf=3025194257&amp;lmt=1690923983&amp;plat=1%3A8%2C2%3A8%2C3%3A2162688%2C4%3A2162688%2C9%3A32776%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1048576%2C32%3A32%2C41%3A32%2C42%3A32&amp;format=0x0&amp;url=https%3A%2F%2Fwww.cyberbackgroundchecks.com%2Fpeople%2Fbill-gates%2Fwa%2Fseattle&amp;ea=0&amp;pra=5&amp;wgl=1&amp;uach=WyJXaW5kb3dzIiwiMTAuMCIsIng4NiIsIiIsIjExNC4wLjU3MzUuMTMzIixbXSwwLG51bGwsIjY0IixbWyJOb3QuQS9CcmFuZCIsIjguMC4wLjAiXSxbIkNocm9taXVtIiwiMTE0LjAuNTczNS4xMzMiXSxbIkhlYWRsZXNzQ2hyb21lIiwiMTE0LjAuNTczNS4xMzMiXV0sMF0.&amp;dt=1690923983594&amp;bpp=16&amp;bdt=835&amp;idt=304&amp;shv=r20230731&amp;mjsv=m202307270101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;nras=1&amp;correlator=5262782213483&amp;frm=20&amp;pv=2&amp;ga_vid=1580218751.1690923984&amp;ga_sid=1690923984&amp;ga_hid=417208074&amp;ga_fc=0&amp;u_tz=-420&amp;u_his=2&amp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=-12245933&amp;ady=-12245933&amp;biw=800&amp;bih=600&amp;scr_x=0&amp;scr_y=0&amp;eid=44759876%2C44759927%2C44759842%2C31076512%2C31076544%2C44788441&amp;oid=2&amp;pvsid=2547262793159503&amp;tmod=1972369002&amp;uas=0&amp;nvt=1&amp;fsapi=1&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C800%2C0%2C800%2C600%2C800%2C600&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=32768&amp;bc=31&amp;ifi=1&amp;uci=a!1&amp;fsb=1&amp;dtd=332" data-google-container- data-gtm-yt-inspected-7="true" data-load-complete="true">
+</iframe>
+</div>
+</ins>
+<div class="container-fluid footer">
+<div class="row text-center">
+<div class="col-md-12">
+Directory:&nbsp;
+<small>
+<a href="/names/a">
+A</a>
+&nbsp;
+<a href="/names/b">
+B</a>
+&nbsp;
+<a href="/names/c">
+C</a>
+&nbsp;
+<a href="/names/d">
+D</a>
+&nbsp;
+<a href="/names/e">
+E</a>
+&nbsp;
+<a href="/names/f">
+F</a>
+&nbsp;
+<a href="/names/g">
+G</a>
+&nbsp;
+<a href="/names/h">
+H</a>
+&nbsp;
+<a href="/names/i">
+I</a>
+&nbsp;
+<a href="/names/j">
+J</a>
+&nbsp;
+<a href="/names/k">
+K</a>
+&nbsp;
+<a href="/names/l">
+L</a>
+&nbsp;
+<a href="/names/m">
+M</a>
+&nbsp;
+<a href="/names/n">
+N</a>
+&nbsp;
+<a href="/names/o">
+O</a>
+&nbsp;
+<a href="/names/p">
+P</a>
+&nbsp;
+<a href="/names/q">
+Q</a>
+&nbsp;
+<a href="/names/r">
+R</a>
+&nbsp;
+<a href="/names/s">
+S</a>
+&nbsp;
+<a href="/names/t">
+T</a>
+&nbsp;
+<a href="/names/u">
+U</a>
+&nbsp;
+<a href="/names/v">
+V</a>
+&nbsp;
+<a href="/names/w">
+W</a>
+&nbsp;
+<a href="/names/x">
+X</a>
+&nbsp;
+<a href="/names/y">
+Y</a>
+&nbsp;
+<a href="/names/z">
+Z</a>
+&nbsp;
+</small>
+</div>
+</div>
+<div class="row text-center mb-3">
+<div class="col-md-12">
+<span class="text-warning font-weight-bold">
+|</span>
+&nbsp;&nbsp;<a href="/terms">
+Terms</a>
+&nbsp;&nbsp;<span class="text-warning font-weight-bold">
+|</span>
+&nbsp;&nbsp;<a href="/privacy">
+Privacy</a>
+&nbsp;&nbsp;<span class="text-warning font-weight-bold">
+|</span>
+&nbsp;&nbsp;<a rel="sponsored" href="https://endato.com/sign-up/cbc/?utm_medium=website&amp;utm_source=cbc&amp;utm_campaign=footer_link" target="_blank">
+Developer API</a>
+&nbsp;&nbsp;<span class="text-warning font-weight-bold">
+|</span>
+&nbsp;&nbsp;<a href="/contact">
+Contact</a>
+&nbsp;&nbsp;<span class="text-warning font-weight-bold">
+|</span>
+&nbsp;&nbsp;<a href="/faqs">
+FAQ's</a>
+&nbsp;&nbsp;<span class="text-warning font-weight-bold">
+|</span>
+</div>
+</div>
+<div class="row text-center mb-3">
+<div class="col-md-12">
+<img src="/images/logo/cbc-bwicon-svg.svg" alt="Cyberbackgroundchecks.com" width="50">
+</div>
+</div>
+<div class="row text-center mb-2">
+<div class="col-md-12">
+© 2023 CyberBackgroundCheck, Inc. All rights reserved.
+</div>
+</div>
+<div class="row text-center mb-2">
+<div class="col-md-12">
+Version 1.0.21
+</div>
+</div>
+<div class="row text-center mb-3">
+<div class="col-md-12">
+CyberBackgroundChecks.com is not a Consumer Reporting Agency (CRA) as defined by the Fair Credit Reporting Act (<a href="https://en.wikipedia.org/wiki/Fair_Credit_Reporting_Act" target="_blank">
+FCRA</a>
+). This site can't be used for employment, credit or tenant screening, or any related purpose.
+</div>
+</div>
+</div>
+<iframe height="1" width="1"  data-gtm-yt-inspected-7="true">
+</iframe>
+      
+      
+<iframe src="https://gum.criteo.com/syncframe?origin=publishertagids&amp;topUrl=www.cyberbackgroundchecks.com#{&quot;uid&quot;:{&quot;origin&quot;:0},&quot;lwid&quot;:{&quot;origin&quot;:0},&quot;bundle&quot;:{&quot;origin&quot;:0},&quot;optout&quot;:{&quot;value&quot;:false,&quot;origin&quot;:0},&quot;sid&quot;:{&quot;origin&quot;:0},&quot;tld&quot;:&quot;cyberbackgroundchecks.com&quot;,&quot;topUrl&quot;:&quot;www.cyberbackgroundchecks.com&quot;,&quot;version&quot;:139,&quot;cw&quot;:true,&quot;lsw&quot;:true,&quot;origin&quot;:&quot;publishertagids&quot;,&quot;requestId&quot;:&quot;0.6474910513873253&quot;}" width="0" height="0" frameborder="0" title="Criteo GUM iframe"  data-gtm-yt-inspected-7="true">
+</iframe>
+<div>
+<iframe src="https://google-bidout-d.openx.net/w/1.0/pd?plm=5" width="0" height="0"  data-gtm-yt-inspected-7="true">
+</iframe>
+</div>
+<img height="1" width="1" src="https://ids.ad.gt/api/v1/halo_match?id=AU1D-0100-001690923985-DTOFROCT-5XV9&amp;halo_id=060agek6il8lclhifj8gjccg8hl98ef686ieqmy0u040i0suow4qwiiq4s064mo04" alt="" >
+<img height="1" width="1" src="https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001690923985-DTOFROCT-5XV9&amp;adnxs_id=$UID&amp;gdpr=0" alt="" >
+<img height="1" width="1" src="https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&amp;ttd_tpi=1&amp;ttd_puid=AU1D-0100-001690923985-DTOFROCT-5XV9&amp;gdpr=0" alt="" >
+<img height="1" width="1" src="https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001690923985-DTOFROCT-5XV9" alt="" >
+<img height="1" width="1" src="https://token.rubiconproject.com/token?pid=50242&amp;puid=AU1D-0100-001690923985-DTOFROCT-5XV9&amp;gdpr=0" alt="" >
+<img height="1" width="1" src="https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&amp;partner_device_id=AU1D-0100-001690923985-DTOFROCT-5XV9&amp;partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001690923985-DTOFROCT-5XV9%26tapad_id%3D%24%7BTA_DEVICE_ID%7D" alt="" >
+<img height="1" width="1" src="https://cm.g.doubleclick.net/pixel?google_nid=audigent_w_appnexus_3985&amp;google_cm&amp;google_sc&amp;google_ula=450542624&amp;id=AU1D-0100-001690923985-DTOFROCT-5XV9" alt="" >
+<img height="1" width="1" src="https://ids.ad.gt/api/v1/g_hosted?id=AU1D-0100-001690923985-DTOFROCT-5XV9" alt="" >
+<img height="1" width="1" src="https://bh.contextweb.com/bh/rtset?pid=562316&amp;ev=1&amp;rurl=https://ids.ad.gt/api/v1/ppnt_match?uid=%%VGUID%%&amp;id=AU1D-0100-001690923985-DTOFROCT-5XV9" alt="" >
+<img height="1" width="1" src="https://sync.colossusssp.com/ebfa23da174faa55634171c5e49d0152.gif?puid=AU1D-0100-001690923985-DTOFROCT-5XV9&amp;redir=http%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fcolossus%3Fcls_id%3D%5BUID%5D%26id%3DAU1D-0100-001690923985-DTOFROCT-5XV9" alt="" >
+<img height="1" width="1" src="https://ad.360yield.com/ux?&amp;publisher_dmp_id=15&amp;r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fimpr_match%3Fid%3DAU1D-0100-001690923985-DTOFROCT-5XV9%26impr_uid%3D%7BPUB_USER_ID%7D" alt="" >
+<iframe src="https://5c212a5c8ac0b558d1e1682ca2e120ba.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html" data-gtm-yt-inspected-7="true" >
+</iframe>
+<iframe  src="https://api.pushnami.com/scripts/v1/hub" data-gtm-yt-inspected-7="true" >
+</iframe>
+<div data-aaad="true" data-aa-adunit="/22815767462/CBC_Name_Mob_Scroll" class="d-sm-none" data-status="skipped"  data-aa-device="[&quot;mobile&quot;]" data-aa-sizes="[[320,50],[320,100],[300,50],[300,100]]" data-aa-lazy-loaded="false" data-aa-rich-media-format="{&quot;type&quot;:&quot;adhesion&quot;,&quot;options&quot;:{&quot;closeButton&quot;:&quot;true&quot;}}" data-aa-refresh-timed="30" >
+</div>
+<iframe src="https://www.google.com/recaptcha/api2/aframe" width="0" height="0" data-gtm-yt-inspected-7="true" >
+</iframe>
+<iframe src="https://gum.criteo.com/syncframe?origin=publishertag&amp;topUrl=www.cyberbackgroundchecks.com#{&quot;uid&quot;:{&quot;origin&quot;:0},&quot;lwid&quot;:{&quot;origin&quot;:0},&quot;bundle&quot;:{&quot;value&quot;:&quot;NAnORV90RE5meDJkY3pOOVdRWTJ6dzJRV1M0QW1UdXJGcjlWUnowbzF3cDElMkZDYzRhbk0zanJNT0dpZmxoOGpadWw3VnVqWFExQ3BkYSUyQmslMkZmNDJrckJyamxZSzM1aGdSbkNiVXlSa3FxRzkyJTJCVTlxcUJQTDRxZG00U0N6Z3UwNjJkNUM2Ykl1QWhLWWo2JTJCUjdVN3NUTlhvUjRQYjhqZDYlMkZIckNOS0VSVHZYZXNZU2clM0Q&quot;,&quot;origin&quot;:3},&quot;optout&quot;:{&quot;value&quot;:false,&quot;origin&quot;:0},&quot;sid&quot;:{&quot;origin&quot;:0},&quot;tld&quot;:&quot;cyberbackgroundchecks.com&quot;,&quot;topUrl&quot;:&quot;www.cyberbackgroundchecks.com&quot;,&quot;version&quot;:136,&quot;cw&quot;:true,&quot;lsw&quot;:true,&quot;origin&quot;:&quot;publishertag&quot;,&quot;requestId&quot;:&quot;0.09685229113798877&quot;}" width="0" height="0" frameborder="0" title="Criteo GUM iframe"  data-gtm-yt-inspected-7="true">
+</iframe>
+</body>
+<iframe  name="google_esf" src="https://googleads.g.doubleclick.net/pagead/html/r20230731/r20190131/zrt_lookup.html" data-gtm-yt-inspected-7="true" >
+</iframe>
+<ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done"  aria-hidden="true" data-ad-status="filled" data-vignette-loaded="true">
+<div  tabindex="0" title="Advertisement"  >
+<iframe  name="aswift_1"  sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="" height="" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/html/r20230731/r20110914/zrt_lookup.html?fsb=1#RS-0-&amp;adk=1812271808&amp;client=ca-pub-5430101290255408&amp;fa=8&amp;ifi=2&amp;uci=a!2&amp;xpc=ss5KUy6KRn&amp;p=https%3A//www.cyberbackgroundchecks.com" data-google-container- data-gtm-yt-inspected-7="true" data-google-query- data-load-complete="true">
+</iframe>
+</div>
+</ins>
+</html>

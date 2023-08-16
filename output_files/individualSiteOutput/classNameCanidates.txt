@@ -1,0 +1,36 @@
+-------------------------------------
+Canidate 1
+flex flex-col bg-411-light-white p-4
+
+-------------------------------------
+Canidate 2
+flex flex-col my-3
+
+-------------------------------------
+Canidate 3
+flex flex-col bg-white mb-3 px-4 py-3 shadow-md rounded-md
+
+-------------------------------------
+Canidate 4
+flex flex-col bg-white mb-3 px-4 py-3 shadow-md hover:shadow-lg rounded serp-card
+
+-------------------------------------
+Canidate 5
+flex flex-col mt-4 lg:mt-0
+
+-------------------------------------
+Canidate 6
+flex flex-col
+
+-------------------------------------
+Canidate 7
+flex flex-row
+
+-------------------------------------
+Canidate 8
+ot-chkbox
+
+-------------------------------------
+Canidate 9
+flex flex-col mt-4 mb-2
+

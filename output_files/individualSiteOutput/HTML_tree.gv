@@ -1,0 +1,216 @@
+digraph "./output_files/individualSiteOutput/HTML_tree" {
+	ranksep=1
+	0 [label="(0)html :: 90" fillcolor=white style=filled]
+	0 -> 1
+	1 [label="(1)body :: 89" fillcolor=white style=filled]
+	1 -> 2
+	1 -> 18
+	1 -> 37
+	1 -> 58
+	1 -> 73
+	1 -> 74
+	2 [label="(2)div :: 14" fillcolor=white style=filled]
+	2 -> 3
+	2 -> 12
+	3 [label="(3)div :: 9" fillcolor=white style=filled]
+	3 -> 4
+	3 -> 8
+	4 [label="(4)div :: 4" fillcolor=white style=filled]
+	4 -> 5
+	4 -> 7
+	5 [label="(5)a :: 2" fillcolor=white style=filled]
+	5 -> 6
+	6 [label="(6)img :: 1" fillcolor=white style=filled]
+	7 [label="(7)br :: 1" fillcolor=white style=filled]
+	8 [label="(8)div :: 4" fillcolor=white style=filled]
+	8 -> 9
+	8 -> 11
+	9 [label="(9)a :: 2" fillcolor=white style=filled]
+	9 -> 10
+	10 [label="(10)img :: 1" fillcolor=white style=filled]
+	11 [label="(11)br :: 1" fillcolor=white style=filled]
+	12 [label="(12)div :: 4" fillcolor=white style=filled]
+	12 -> 13
+	13 [label="(13)div :: 3" fillcolor=white style=filled]
+	13 -> 14
+	14 [label="(14)h4 :: 2" fillcolor=white style=filled]
+	14 -> 15
+	15 [label="(15)ContentBlock :: 1" fillcolor=white style=filled]
+	15 -> 16
+	16 [label="(16)span :: 1" fillcolor=white style=filled]
+	16 -> 17
+	17 [label="(17)ContentBlock :: 0" fillcolor=white style=filled]
+	18 [label="(18)div :: 18" fillcolor=white style=filled]
+	18 -> 19
+	19 [label="(19)div :: 17" fillcolor=white style=filled]
+	19 -> 20
+	20 [label="(20)div :: 16" fillcolor=white style=filled]
+	20 -> 21
+	20 -> 22
+	20 -> 23
+	20 -> 24
+	20 -> 25
+	20 -> 27
+	20 -> 28
+	20 -> 29
+	20 -> 30
+	20 -> 31
+	20 -> 32
+	20 -> 33
+	20 -> 34
+	20 -> 35
+	20 -> 36
+	21 [label="(21)img :: 1" fillcolor=white style=filled]
+	22 [label="(22)br :: 1" fillcolor=white style=filled]
+	23 [label="(23)img :: 1" fillcolor=white style=filled]
+	24 [label="(24)br :: 1" fillcolor=white style=filled]
+	25 [label="(25)span :: 1" fillcolor=white style=filled]
+	25 -> 26
+	26 [label="(26)ContentBlock :: 0" fillcolor=white style=filled]
+	27 [label="(27)br :: 1" fillcolor=white style=filled]
+	28 [label="(28)br :: 1" fillcolor=white style=filled]
+	29 [label="(29)br :: 1" fillcolor=white style=filled]
+	30 [label="(30)br :: 1" fillcolor=white style=filled]
+	31 [label="(31)br :: 1" fillcolor=white style=filled]
+	32 [label="(32)br :: 1" fillcolor=white style=filled]
+	33 [label="(33)br :: 1" fillcolor=white style=filled]
+	34 [label="(34)br :: 1" fillcolor=white style=filled]
+	35 [label="(35)br :: 1" fillcolor=white style=filled]
+	36 [label="(36)br :: 1" fillcolor=white style=filled]
+	37 [label="(37)table :: 15" fillcolor=white style=filled]
+	37 -> 38
+	38 [label="(38)tbody :: 14" fillcolor=white style=filled]
+	38 -> 39
+	39 [label="(39)tr :: 13" fillcolor=white style=filled]
+	39 -> 40
+	40 [label="(40)td :: 12" fillcolor=white style=filled]
+	40 -> 41
+	41 [label="(41)p :: 11" fillcolor=white style=filled]
+	41 -> 42
+	41 -> 46
+	41 -> 48
+	41 -> 50
+	41 -> 52
+	41 -> 54
+	41 -> 56
+	42 [label="(42)strong :: 4" fillcolor=white style=filled]
+	42 -> 43
+	42 -> 44
+	43 [label="(43)a :: 1" fillcolor=white style=filled]
+	44 [label="(44)a :: 2" fillcolor=white style=filled]
+	44 -> 45
+	45 [label="(45)img :: 1" fillcolor=white style=filled]
+	46 [label="(46)a :: 1" fillcolor=white style=filled]
+	46 -> 47
+	47 [label="(47)ContentBlock :: 0" fillcolor=white style=filled]
+	48 [label="(48)a :: 1" fillcolor=white style=filled]
+	48 -> 49
+	49 [label="(49)ContentBlock :: 0" fillcolor=white style=filled]
+	50 [label="(50)a :: 1" fillcolor=white style=filled]
+	50 -> 51
+	51 [label="(51)ContentBlock :: 0" fillcolor=white style=filled]
+	52 [label="(52)a :: 1" fillcolor=white style=filled]
+	52 -> 53
+	53 [label="(53)ContentBlock :: 0" fillcolor=white style=filled]
+	54 [label="(54)a :: 1" fillcolor=white style=filled]
+	54 -> 55
+	55 [label="(55)ContentBlock :: 0" fillcolor=white style=filled]
+	56 [label="(56)a :: 1" fillcolor=white style=filled]
+	56 -> 57
+	57 [label="(57)ContentBlock :: 0" fillcolor=white style=filled]
+	58 [label="(58)table :: 10" fillcolor=white style=filled]
+	58 -> 59
+	59 [label="(59)tbody :: 9" fillcolor=white style=filled]
+	59 -> 60
+	59 -> 63
+	60 [label="(60)tr :: 2" fillcolor=white style=filled]
+	60 -> 61
+	61 [label="(61)td :: 1" fillcolor=white style=filled]
+	61 -> 62
+	62 [label="(62)ContentBlock :: 0" fillcolor=white style=filled]
+	63 [label="(63)tr :: 6" fillcolor=white style=filled]
+	63 -> 64
+	64 [label="(64)td :: 5" fillcolor=white style=filled]
+	64 -> 65
+	65 [label="(65)p :: 4" fillcolor=white style=filled]
+	65 -> 66
+	66 [label="(66)ContentBlock :: 3" fillcolor=white style=filled]
+	66 -> 67
+	66 -> 69
+	66 -> 71
+	67 [label="(67)a :: 1" fillcolor=white style=filled]
+	67 -> 68
+	68 [label="(68)ContentBlock :: 0" fillcolor=white style=filled]
+	69 [label="(69)a :: 1" fillcolor=white style=filled]
+	69 -> 70
+	70 [label="(70)ContentBlock :: 0" fillcolor=white style=filled]
+	71 [label="(71)a :: 1" fillcolor=white style=filled]
+	71 -> 72
+	72 [label="(72)ContentBlock :: 0" fillcolor=white style=filled]
+	73 [label="(73)iframe :: 1" fillcolor=white style=filled]
+	74 [label="(74)div :: 30" fillcolor=white style=filled]
+	74 -> 75
+	74 -> 76
+	74 -> 85
+	74 -> 94
+	74 -> 105
+	75 [label="(75)div :: 1" fillcolor=white style=filled]
+	76 [label="(76)div :: 7" fillcolor=white style=filled]
+	76 -> 77
+	76 -> 82
+	77 [label="(77)div :: 4" fillcolor=white style=filled]
+	77 -> 78
+	77 -> 79
+	77 -> 80
+	78 [label="(78)span :: 1" fillcolor=white style=filled]
+	79 [label="(79)input :: 1" fillcolor=white style=filled]
+	80 [label="(80)div :: 1" fillcolor=white style=filled]
+	80 -> 81
+	81 [label="(81)ContentBlock :: 0" fillcolor=white style=filled]
+	82 [label="(82)div :: 2" fillcolor=white style=filled]
+	82 -> 83
+	83 [label="(83)div :: 1" fillcolor=white style=filled]
+	83 -> 84
+	84 [label="(84)ContentBlock :: 0" fillcolor=white style=filled]
+	85 [label="(85)div :: 9" fillcolor=white style=filled]
+	85 -> 86
+	85 -> 90
+	85 -> 91
+	86 [label="(86)div :: 4" fillcolor=white style=filled]
+	86 -> 87
+	87 [label="(87)div :: 3" fillcolor=white style=filled]
+	87 -> 88
+	87 -> 89
+	88 [label="(88)input :: 1" fillcolor=white style=filled]
+	89 [label="(89)span :: 1" fillcolor=white style=filled]
+	90 [label="(90)div :: 1" fillcolor=white style=filled]
+	91 [label="(91)div :: 3" fillcolor=white style=filled]
+	91 -> 92
+	92 [label="(92)a :: 2" fillcolor=white style=filled]
+	92 -> 93
+	93 [label="(93)span :: 1" fillcolor=white style=filled]
+	94 [label="(94)div :: 10" fillcolor=white style=filled]
+	94 -> 95
+	94 -> 96
+	94 -> 100
+	95 [label="(95)div :: 1" fillcolor=white style=filled]
+	96 [label="(96)div :: 4" fillcolor=white style=filled]
+	96 -> 97
+	96 -> 98
+	96 -> 99
+	97 [label="(97)div :: 1" fillcolor=white style=filled]
+	98 [label="(98)div :: 1" fillcolor=white style=filled]
+	99 [label="(99)div :: 1" fillcolor=white style=filled]
+	100 [label="(100)div :: 4" fillcolor=white style=filled]
+	100 -> 101
+	101 [label="(101)a :: 3" fillcolor=white style=filled]
+	101 -> 102
+	101 -> 103
+	102 [label="(102)span :: 1" fillcolor=white style=filled]
+	103 [label="(103)span :: 1" fillcolor=white style=filled]
+	103 -> 104
+	104 [label="(104)ContentBlock :: 0" fillcolor=white style=filled]
+	105 [label="(105)div :: 2" fillcolor=white style=filled]
+	105 -> 106
+	106 [label="(106)iframe :: 1" fillcolor=white style=filled]
+}

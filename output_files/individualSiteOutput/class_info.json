@@ -1,0 +1,357 @@
+[
+	{
+		"class": "viewport",
+		"level": 0,
+		"frequency":1
+	},
+	{
+		"class": "publift-widget-22947564049-container",
+		"level": 0,
+		"frequency":1
+	},
+	{
+		"class": "side-menu--hidden",
+		"level": 0,
+		"frequency":1
+	},
+	{
+		"class": "mc-banner",
+		"level": 0,
+		"frequency":1
+	},
+	{
+		"class": "mc-modal",
+		"level": 0,
+		"frequency":1
+	},
+	{
+		"class": "book-categories",
+		"level": 0,
+		"frequency":20
+	},
+	{
+		"class": "publift-widget-22947564049",
+		"level": 1,
+		"frequency":1
+	},
+	{
+		"class": "header",
+		"level": 1,
+		"frequency":1
+	},
+	{
+		"class": "publift-widget-22947564049-container-background",
+		"level": 1,
+		"frequency":1
+	},
+	{
+		"class": "mc-layout__bannerContent",
+		"level": 1,
+		"frequency":1
+	},
+	{
+		"class": "book-categories__more",
+		"level": 1,
+		"frequency":20
+	},
+	{
+		"class": "publift-widget-22947564049-button",
+		"level": 1,
+		"frequency":1
+	},
+	{
+		"class": "viewport__main",
+		"level": 1,
+		"frequency":1
+	},
+	{
+		"class": "side-menu__item",
+		"level": 1,
+		"frequency":6
+	},
+	{
+		"class": "book-categories__category",
+		"level": 1,
+		"frequency":60
+	},
+	{
+		"class": "mc-layout__modalContent",
+		"level": 1,
+		"frequency":1
+	},
+	{
+		"class": "mc-closeModal",
+		"level": 1,
+		"frequency":1
+	},
+	{
+		"class": "footer",
+		"level": 1,
+		"frequency":1
+	},
+	{
+		"class": "side-menu__item__button",
+		"level": 2,
+		"frequency":5
+	},
+	{
+		"class": "footer__social",
+		"level": 2,
+		"frequency":1
+	},
+	{
+		"class": "book-categories__more-button",
+		"level": 2,
+		"frequency":20
+	},
+	{
+		"class": "footer__row",
+		"level": 2,
+		"frequency":2
+	},
+	{
+		"class": "book-category",
+		"level": 2,
+		"frequency":1
+	},
+	{
+		"class": "side-menu__item__sign-up-button",
+		"level": 2,
+		"frequency":1
+	},
+	{
+		"class": "fuse-slot-sticky",
+		"level": 2,
+		"frequency":1
+	},
+	{
+		"class": "header__top",
+		"level": 2,
+		"frequency":1
+	},
+	{
+		"class": "header__top__container",
+		"level": 3,
+		"frequency":1
+	},
+	{
+		"class": "footer__change-language",
+		"level": 3,
+		"frequency":1
+	},
+	{
+		"class": "fuse-slot",
+		"level": 3,
+		"frequency":7
+	},
+	{
+		"class": "footer__links",
+		"level": 3,
+		"frequency":1
+	},
+	{
+		"class": "book-category__container",
+		"level": 3,
+		"frequency":1
+	},
+	{
+		"class": "footer__facebook",
+		"level": 3,
+		"frequency":1
+	},
+	{
+		"class": "ads--horizontal-container",
+		"level": 4,
+		"frequency":2
+	},
+	{
+		"class": "header__column header__column--right",
+		"level": 4,
+		"frequency":1
+	},
+	{
+		"class": "header__column header__column--center",
+		"level": 4,
+		"frequency":1
+	},
+	{
+		"class": "fb-like fb_iframe_widget",
+		"level": 4,
+		"frequency":1
+	},
+	{
+		"class": "book-category__footer",
+		"level": 4,
+		"frequency":1
+	},
+	{
+		"class": "header__column header__column--left",
+		"level": 4,
+		"frequency":1
+	},
+	{
+		"class": "book-category__main",
+		"level": 4,
+		"frequency":1
+	},
+	{
+		"class": "header__item",
+		"level": 5,
+		"frequency":1
+	},
+	{
+		"class": "header__item header__item--hamburger header__item--show-mobile",
+		"level": 5,
+		"frequency":1
+	},
+	{
+		"class": "header__item header__item--link header__item--hide-mobile",
+		"level": 5,
+		"frequency":2
+	},
+	{
+		"class": "header__item header__item--sign-up header__item--hide-mobile",
+		"level": 5,
+		"frequency":1
+	},
+	{
+		"class": "book-category__books",
+		"level": 5,
+		"frequency":1
+	},
+	{
+		"class": "book-category__main__header",
+		"level": 5,
+		"frequency":1
+	},
+	{
+		"class": "header__item header__item--sign-in header__item--hide-mobile",
+		"level": 5,
+		"frequency":1
+	},
+	{
+		"class": "header__item header__item--link header__item--current-link header__item--hide-mobile",
+		"level": 5,
+		"frequency":1
+	},
+	{
+		"class": "book-category__search-again",
+		"level": 5,
+		"frequency":1
+	},
+	{
+		"class": "header__side-menu-button",
+		"level": 6,
+		"frequency":1
+	},
+	{
+		"class": "book-category__main__subtitle",
+		"level": 6,
+		"frequency":1
+	},
+	{
+		"class": "header__item__logo",
+		"level": 6,
+		"frequency":1
+	},
+	{
+		"class": "header__item__sign-up-button",
+		"level": 6,
+		"frequency":1
+	},
+	{
+		"class": "header__item__link",
+		"level": 6,
+		"frequency":3
+	},
+	{
+		"class": "book-category__search-again__button",
+		"level": 6,
+		"frequency":1
+	},
+	{
+		"class": "book-results",
+		"level": 6,
+		"frequency":1
+	},
+	{
+		"class": "header__item__sign-in-button",
+		"level": 6,
+		"frequency":1
+	},
+	{
+		"class": "book-category__main__title",
+		"level": 6,
+		"frequency":1
+	},
+	{
+		"class": "book-results__item",
+		"level": 7,
+		"frequency":20
+	},
+	{
+		"class": "ads--horizontal-container ads--horizontal-container__mobile-only",
+		"level": 7,
+		"frequency":4
+	},
+	{
+		"class": "hamburger hamburger--spin",
+		"level": 7,
+		"frequency":1
+	},
+	{
+		"class": "hamburger-box",
+		"level": 8,
+		"frequency":1
+	},
+	{
+		"class": "book-results__right",
+		"level": 8,
+		"frequency":20
+	},
+	{
+		"class": "book-results__left",
+		"level": 8,
+		"frequency":20
+	},
+	{
+		"class": "book-results__actions",
+		"level": 9,
+		"frequency":20
+	},
+	{
+		"class": "hamburger-inner",
+		"level": 9,
+		"frequency":1
+	},
+	{
+		"class": "book-results__details",
+		"level": 9,
+		"frequency":20
+	},
+	{
+		"class": "book-results__cover",
+		"level": 9,
+		"frequency":20
+	},
+	{
+		"class": "book-results__title",
+		"level": 10,
+		"frequency":20
+	},
+	{
+		"class": "book-results__cover__inner",
+		"level": 10,
+		"frequency":20
+	},
+	{
+		"class": "book-results__author",
+		"level": 10,
+		"frequency":20
+	},
+	{
+		"class": "book-results__buy",
+		"level": 10,
+		"frequency":20
+	}
+]
